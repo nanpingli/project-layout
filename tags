@@ -1,0 +1,253 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+.DEFAULT_GOAL	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^.DEFAULT_GOAL := help$/;"	m
+API_PROTO_FILES	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^API_PROTO_FILES=$(shell find api -name *.proto)$/;"	m
+Bootstrap	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Bootstrap struct {$/;"	t
+Cause	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Cause() error { return e.cause }$/;"	f
+Cause	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Cause() error { return e.cause }$/;"	f
+Create	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^func (uc *GreeterUsecase) Create(ctx context.Context, g *Greeter) error {$/;"	f
+CreateGreeter	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^func (r *greeterRepo) CreateGreeter(ctx context.Context, g *biz.Greeter) error {$/;"	f
+Data	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Data struct {$/;"	t
+Data	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/data.go	/^type Data struct {$/;"	t
+Data_Database	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Data_Database struct {$/;"	t
+Data_Redis	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Data_Redis struct {$/;"	t
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (ErrorReason) Descriptor() protoreflect.EnumDescriptor {$/;"	f
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloReply) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloRequest) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Bootstrap) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data_Database) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data_Redis) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server_GRPC) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server_HTTP) Descriptor() ([]byte, []int) {$/;"	f
+Enum	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (x ErrorReason) Enum() *ErrorReason {$/;"	f
+EnumDescriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (ErrorReason) EnumDescriptor() ([]byte, []int) {$/;"	f
+Error	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Error() string {$/;"	f
+Error	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Error() string {$/;"	f
+ErrorContentMissing	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func ErrorContentMissing(format string, args ...interface{}) *errors.Error {$/;"	f
+ErrorName	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) ErrorName() string { return "HelloReplyValidationError" }$/;"	f
+ErrorName	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) ErrorName() string { return "HelloRequestValidationError" }$/;"	f
+ErrorReason	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^type ErrorReason int32$/;"	t
+ErrorReason_CONTENT_MISSING	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_CONTENT_MISSING ErrorReason = 1$/;"	c
+ErrorReason_USER_NOT_FOUND	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_USER_NOT_FOUND  ErrorReason = 0$/;"	c
+ErrorReason_name	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_name = map[int32]string{$/;"	v
+ErrorReason_value	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_value = map[string]int32{$/;"	v
+ErrorUserNotFound	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func ErrorUserNotFound(format string, args ...interface{}) *errors.Error {$/;"	f
+Field	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Field() string { return e.field }$/;"	f
+Field	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Field() string { return e.field }$/;"	f
+File_api_helloworld_v1_error_reason_proto	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var File_api_helloworld_v1_error_reason_proto protoreflect.FileDescriptor$/;"	v
+File_api_helloworld_v1_greeter_proto	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var File_api_helloworld_v1_greeter_proto protoreflect.FileDescriptor$/;"	v
+File_internal_conf_conf_proto	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var File_internal_conf_conf_proto protoreflect.FileDescriptor$/;"	v
+GOPATH	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^GOPATH:=$(shell go env GOPATH)$/;"	m
+GetAddr	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetAddr() string {$/;"	f
+GetAddr	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) GetAddr() string {$/;"	f
+GetAddr	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) GetAddr() string {$/;"	f
+GetData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) GetData() *Data {$/;"	f
+GetDatabase	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) GetDatabase() *Data_Database {$/;"	f
+GetDriver	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) GetDriver() string {$/;"	f
+GetGrpc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) GetGrpc() *Server_GRPC {$/;"	f
+GetHttp	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) GetHttp() *Server_HTTP {$/;"	f
+GetMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) GetMessage() string {$/;"	f
+GetName	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) GetName() string {$/;"	f
+GetNetwork	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetNetwork() string {$/;"	f
+GetNetwork	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) GetNetwork() string {$/;"	f
+GetNetwork	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) GetNetwork() string {$/;"	f
+GetReadTimeout	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetReadTimeout() *durationpb.Duration {$/;"	f
+GetRedis	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) GetRedis() *Data_Redis {$/;"	f
+GetServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) GetServer() *Server {$/;"	f
+GetSource	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) GetSource() string {$/;"	f
+GetTimeout	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) GetTimeout() *durationpb.Duration {$/;"	f
+GetTimeout	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) GetTimeout() *durationpb.Duration {$/;"	f
+GetWriteTimeout	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetWriteTimeout() *durationpb.Duration {$/;"	f
+Greeter	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^type Greeter struct {$/;"	t
+GreeterClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type GreeterClient interface {$/;"	t
+GreeterHTTPClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^type GreeterHTTPClient interface {$/;"	t
+GreeterHTTPClientImpl	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^type GreeterHTTPClientImpl struct {$/;"	t
+GreeterHTTPServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^type GreeterHTTPServer interface {$/;"	t
+GreeterRepo	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^type GreeterRepo interface {$/;"	t
+GreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type GreeterServer interface {$/;"	t
+GreeterService	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/greeter.go	/^type GreeterService struct {$/;"	t
+GreeterUsecase	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^type GreeterUsecase struct {$/;"	t
+Greeter_ServiceDesc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^var Greeter_ServiceDesc = grpc.ServiceDesc{$/;"	v
+HelloReply	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^type HelloReply struct {$/;"	t
+HelloReplyValidationError	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^type HelloReplyValidationError struct {$/;"	t
+HelloRequest	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^type HelloRequest struct {$/;"	t
+HelloRequestValidationError	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^type HelloRequestValidationError struct {$/;"	t
+INTERNAL_PROTO_FILES	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^INTERNAL_PROTO_FILES=$(shell find internal -name *.proto)$/;"	m
+IsContentMissing	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func IsContentMissing(err error) bool {$/;"	f
+IsUserNotFound	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func IsUserNotFound(err error) bool {$/;"	f
+Key	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Key() bool { return e.key }$/;"	f
+Key	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Key() bool { return e.key }$/;"	f
+Name	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	Name string$/;"	v
+NewData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/data.go	/^func NewData(c *conf.Data, logger log.Logger) (*Data, func(), error) {$/;"	f
+NewGRPCServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/grpc.go	/^func NewGRPCServer(c *conf.Server, greeter *service.GreeterService, logger log.Logger) *grpc.Server {$/;"	f
+NewGreeterClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func NewGreeterClient(cc grpc.ClientConnInterface) GreeterClient {$/;"	f
+NewGreeterHTTPClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^func NewGreeterHTTPClient(client *http.Client) GreeterHTTPClient {$/;"	f
+NewGreeterRepo	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^func NewGreeterRepo(data *Data, logger log.Logger) biz.GreeterRepo {$/;"	f
+NewGreeterService	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/greeter.go	/^func NewGreeterService(uc *biz.GreeterUsecase, logger log.Logger) *GreeterService {$/;"	f
+NewGreeterUsecase	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^func NewGreeterUsecase(repo GreeterRepo, logger log.Logger) *GreeterUsecase {$/;"	f
+NewHTTPServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/http.go	/^func NewHTTPServer(c *conf.Server, greeter *service.GreeterService, logger log.Logger) *http.Server {$/;"	f
+Number	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (x ErrorReason) Number() protoreflect.EnumNumber {$/;"	f
+ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloReply) ProtoMessage() {}$/;"	f
+ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloRequest) ProtoMessage() {}$/;"	f
+ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Bootstrap) ProtoMessage() {}$/;"	f
+ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data) ProtoMessage() {}$/;"	f
+ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data_Database) ProtoMessage() {}$/;"	f
+ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data_Redis) ProtoMessage() {}$/;"	f
+ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server) ProtoMessage() {}$/;"	f
+ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server_GRPC) ProtoMessage() {}$/;"	f
+ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server_HTTP) ProtoMessage() {}$/;"	f
+ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) ProtoReflect() protoreflect.Message {$/;"	f
+ProviderSet	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/biz.go	/^var ProviderSet = wire.NewSet(NewGreeterUsecase)$/;"	v
+ProviderSet	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/data.go	/^var ProviderSet = wire.NewSet(NewData, NewGreeterRepo)$/;"	v
+ProviderSet	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/server.go	/^var ProviderSet = wire.NewSet(NewHTTPServer, NewGRPCServer)$/;"	v
+ProviderSet	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/service.go	/^var ProviderSet = wire.NewSet(NewGreeterService)$/;"	v
+Reason	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Reason() string { return e.reason }$/;"	f
+Reason	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Reason() string { return e.reason }$/;"	f
+RegisterGreeterHTTPServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^func RegisterGreeterHTTPServer(s *http.Server, srv GreeterHTTPServer) {$/;"	f
+RegisterGreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func RegisterGreeterServer(s grpc.ServiceRegistrar, srv GreeterServer) {$/;"	f
+Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) Reset() {$/;"	f
+Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) Reset() {$/;"	f
+Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) Reset() {$/;"	f
+Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) Reset() {$/;"	f
+Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) Reset() {$/;"	f
+Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) Reset() {$/;"	f
+Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) Reset() {$/;"	f
+Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) Reset() {$/;"	f
+Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) Reset() {$/;"	f
+SayHello	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func (UnimplementedGreeterServer) SayHello(context.Context, *HelloRequest) (*HelloReply, error) {$/;"	f
+SayHello	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func (c *greeterClient) SayHello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption) (*HelloReply, error) {$/;"	f
+SayHello	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^func (c *GreeterHTTPClientImpl) SayHello(ctx context.Context, in *HelloRequest, opts ...http.CallOption) (*HelloReply, error) {$/;"	f
+SayHello	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/greeter.go	/^func (s *GreeterService) SayHello(ctx context.Context, in *v1.HelloRequest) (*v1.HelloReply, error) {$/;"	f
+Server	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Server struct {$/;"	t
+Server_GRPC	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Server_GRPC struct {$/;"	t
+Server_HTTP	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Server_HTTP struct {$/;"	t
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (x ErrorReason) String() string {$/;"	f
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) String() string {$/;"	f
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) String() string {$/;"	f
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) String() string {$/;"	f
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) String() string {$/;"	f
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) String() string {$/;"	f
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) String() string {$/;"	f
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) String() string {$/;"	f
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) String() string {$/;"	f
+String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) String() string {$/;"	f
+Type	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (ErrorReason) Type() protoreflect.EnumType {$/;"	f
+UnimplementedGreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type UnimplementedGreeterServer struct {$/;"	t
+UnsafeGreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type UnsafeGreeterServer interface {$/;"	t
+Update	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^func (uc *GreeterUsecase) Update(ctx context.Context, g *Greeter) error {$/;"	f
+UpdateGreeter	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^func (r *greeterRepo) UpdateGreeter(ctx context.Context, g *biz.Greeter) error {$/;"	f
+VERSION	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^VERSION=$(shell git describe --tags --always)$/;"	m
+Validate	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (m *HelloReply) Validate() error {$/;"	f
+Validate	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (m *HelloRequest) Validate() error {$/;"	f
+Version	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	Version string$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*mail.Address)(nil)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*regexp.Regexp)(nil)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*strings.Reader)(nil)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*url.URL)(nil)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = anypb.Any{}$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = bytes.MinRead$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = errors.New("")$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = fmt.Print$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = net.IPv4len$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = time.Duration(0)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = utf8.UTFMax$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^const _ = errors.SupportPackageIsVersion1$/;"	c
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*mail.Address)(nil)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*regexp.Regexp)(nil)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*strings.Reader)(nil)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*url.URL)(nil)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = anypb.Any{}$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = bytes.MinRead$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = errors.New("")$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = fmt.Print$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = net.IPv4len$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = time.Duration(0)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = utf8.UTFMax$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^var _ error = HelloReplyValidationError{}$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^var _ error = HelloRequestValidationError{}$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^var _ interface {$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^const _ = grpc.SupportPackageIsVersion7$/;"	c
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^const _ = http.SupportPackageIsVersion1$/;"	c
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^var _ = binding.EncodeURL$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^var _ = new(context.Context)$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	id, _ = os.Hostname()$/;"	v
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c
+_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c
+_Greeter_SayHello0_HTTP_Handler	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^func _Greeter_SayHello0_HTTP_Handler(srv GreeterHTTPServer) func(ctx http.Context) error {$/;"	f
+_Greeter_SayHello_Handler	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func _Greeter_SayHello_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {$/;"	f
+biz	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/biz.go	/^package biz$/;"	p
+biz	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^package biz$/;"	p
+conf	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^package conf$/;"	p
+data	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/data.go	/^package data$/;"	p
+data	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^package data$/;"	p
+file_api_helloworld_v1_error_reason_proto_depIdxs	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_depIdxs = []int32{$/;"	v
+file_api_helloworld_v1_error_reason_proto_enumTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_enumTypes = make([]protoimpl.EnumInfo, 1)$/;"	v
+file_api_helloworld_v1_error_reason_proto_goTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_goTypes = []interface{}{$/;"	v
+file_api_helloworld_v1_error_reason_proto_init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func file_api_helloworld_v1_error_reason_proto_init() {$/;"	f
+file_api_helloworld_v1_error_reason_proto_rawDesc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_rawDesc = []byte{$/;"	v
+file_api_helloworld_v1_error_reason_proto_rawDescData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	file_api_helloworld_v1_error_reason_proto_rawDescData = file_api_helloworld_v1_error_reason_proto_rawDesc$/;"	v
+file_api_helloworld_v1_error_reason_proto_rawDescGZIP	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func file_api_helloworld_v1_error_reason_proto_rawDescGZIP() []byte {$/;"	f
+file_api_helloworld_v1_error_reason_proto_rawDescOnce	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	file_api_helloworld_v1_error_reason_proto_rawDescOnce sync.Once$/;"	v
+file_api_helloworld_v1_greeter_proto_depIdxs	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_depIdxs = []int32{$/;"	v
+file_api_helloworld_v1_greeter_proto_goTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_goTypes = []interface{}{$/;"	v
+file_api_helloworld_v1_greeter_proto_init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func file_api_helloworld_v1_greeter_proto_init() {$/;"	f
+file_api_helloworld_v1_greeter_proto_msgTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_msgTypes = make([]protoimpl.MessageInfo, 2)$/;"	v
+file_api_helloworld_v1_greeter_proto_rawDesc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_rawDesc = []byte{$/;"	v
+file_api_helloworld_v1_greeter_proto_rawDescData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^	file_api_helloworld_v1_greeter_proto_rawDescData = file_api_helloworld_v1_greeter_proto_rawDesc$/;"	v
+file_api_helloworld_v1_greeter_proto_rawDescGZIP	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func file_api_helloworld_v1_greeter_proto_rawDescGZIP() []byte {$/;"	f
+file_api_helloworld_v1_greeter_proto_rawDescOnce	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^	file_api_helloworld_v1_greeter_proto_rawDescOnce sync.Once$/;"	v
+file_internal_conf_conf_proto_depIdxs	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_depIdxs = []int32{$/;"	v
+file_internal_conf_conf_proto_goTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_goTypes = []interface{}{$/;"	v
+file_internal_conf_conf_proto_init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func file_internal_conf_conf_proto_init() {$/;"	f
+file_internal_conf_conf_proto_msgTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_msgTypes = make([]protoimpl.MessageInfo, 7)$/;"	v
+file_internal_conf_conf_proto_rawDesc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_rawDesc = []byte{$/;"	v
+file_internal_conf_conf_proto_rawDescData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^	file_internal_conf_conf_proto_rawDescData = file_internal_conf_conf_proto_rawDesc$/;"	v
+file_internal_conf_conf_proto_rawDescGZIP	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func file_internal_conf_conf_proto_rawDescGZIP() []byte {$/;"	f
+file_internal_conf_conf_proto_rawDescOnce	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^	file_internal_conf_conf_proto_rawDescOnce sync.Once$/;"	v
+flagconf	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	flagconf string$/;"	v
+generate	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/generate.go	/^package generate$/;"	p
+greeterClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type greeterClient struct {$/;"	t
+greeterRepo	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^type greeterRepo struct {$/;"	t
+id	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	id, _ = os.Hostname()$/;"	v
+init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func init() { file_api_helloworld_v1_error_reason_proto_init() }$/;"	f
+init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func init() { file_api_helloworld_v1_greeter_proto_init() }$/;"	f
+init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^func init() {$/;"	f
+init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func init() { file_internal_conf_conf_proto_init() }$/;"	f
+initApp	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/wire.go	/^func initApp(*conf.Server, *conf.Data, log.Logger) (*kratos.App, func(), error) {$/;"	f
+initApp	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/wire_gen.go	/^func initApp(confServer *conf.Server, confData *conf.Data, logger log.Logger) (*kratos.App, func(), error) {$/;"	f
+main	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^func main() {$/;"	f
+main	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^package main$/;"	p
+main	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/wire.go	/^package main$/;"	p
+main	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/wire_gen.go	/^package main$/;"	p
+mustEmbedUnimplementedGreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func (UnimplementedGreeterServer) mustEmbedUnimplementedGreeterServer() {}$/;"	f
+newApp	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^func newApp(logger log.Logger, hs *http.Server, gs *grpc.Server) *kratos.App {$/;"	f
+server	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/grpc.go	/^package server$/;"	p
+server	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/http.go	/^package server$/;"	p
+server	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/server.go	/^package server$/;"	p
+service	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/greeter.go	/^package service$/;"	p
+service	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/service.go	/^package service$/;"	p
+v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^package v1$/;"	p
+v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^package v1$/;"	p
+v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^package v1$/;"	p
+v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^package v1$/;"	p
+v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^package v1$/;"	p
+v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^package v1$/;"	p
+v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^package v1$/;"	p
