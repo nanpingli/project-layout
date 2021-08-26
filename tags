@@ -4,250 +4,738 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-.DEFAULT_GOAL	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^.DEFAULT_GOAL := help$/;"	m
-API_PROTO_FILES	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^API_PROTO_FILES=$(shell find api -name *.proto)$/;"	m
-Bootstrap	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Bootstrap struct {$/;"	t
-Cause	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Cause() error { return e.cause }$/;"	f
-Cause	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Cause() error { return e.cause }$/;"	f
-Create	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^func (uc *GreeterUsecase) Create(ctx context.Context, g *Greeter) error {$/;"	f
-CreateGreeter	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^func (r *greeterRepo) CreateGreeter(ctx context.Context, g *biz.Greeter) error {$/;"	f
-Data	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Data struct {$/;"	t
-Data	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/data.go	/^type Data struct {$/;"	t
-Data_Database	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Data_Database struct {$/;"	t
-Data_Redis	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Data_Redis struct {$/;"	t
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (ErrorReason) Descriptor() protoreflect.EnumDescriptor {$/;"	f
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloReply) Descriptor() ([]byte, []int) {$/;"	f
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloRequest) Descriptor() ([]byte, []int) {$/;"	f
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Bootstrap) Descriptor() ([]byte, []int) {$/;"	f
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data) Descriptor() ([]byte, []int) {$/;"	f
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data_Database) Descriptor() ([]byte, []int) {$/;"	f
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data_Redis) Descriptor() ([]byte, []int) {$/;"	f
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server) Descriptor() ([]byte, []int) {$/;"	f
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server_GRPC) Descriptor() ([]byte, []int) {$/;"	f
-Descriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server_HTTP) Descriptor() ([]byte, []int) {$/;"	f
-Enum	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (x ErrorReason) Enum() *ErrorReason {$/;"	f
-EnumDescriptor	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (ErrorReason) EnumDescriptor() ([]byte, []int) {$/;"	f
-Error	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Error() string {$/;"	f
-Error	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Error() string {$/;"	f
-ErrorContentMissing	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func ErrorContentMissing(format string, args ...interface{}) *errors.Error {$/;"	f
-ErrorName	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) ErrorName() string { return "HelloReplyValidationError" }$/;"	f
-ErrorName	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) ErrorName() string { return "HelloRequestValidationError" }$/;"	f
-ErrorReason	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^type ErrorReason int32$/;"	t
-ErrorReason_CONTENT_MISSING	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_CONTENT_MISSING ErrorReason = 1$/;"	c
-ErrorReason_USER_NOT_FOUND	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_USER_NOT_FOUND  ErrorReason = 0$/;"	c
-ErrorReason_name	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_name = map[int32]string{$/;"	v
-ErrorReason_value	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_value = map[string]int32{$/;"	v
-ErrorUserNotFound	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func ErrorUserNotFound(format string, args ...interface{}) *errors.Error {$/;"	f
-Field	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Field() string { return e.field }$/;"	f
-Field	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Field() string { return e.field }$/;"	f
-File_api_helloworld_v1_error_reason_proto	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var File_api_helloworld_v1_error_reason_proto protoreflect.FileDescriptor$/;"	v
-File_api_helloworld_v1_greeter_proto	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var File_api_helloworld_v1_greeter_proto protoreflect.FileDescriptor$/;"	v
-File_internal_conf_conf_proto	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var File_internal_conf_conf_proto protoreflect.FileDescriptor$/;"	v
-GOPATH	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^GOPATH:=$(shell go env GOPATH)$/;"	m
-GetAddr	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetAddr() string {$/;"	f
-GetAddr	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) GetAddr() string {$/;"	f
-GetAddr	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) GetAddr() string {$/;"	f
-GetData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) GetData() *Data {$/;"	f
-GetDatabase	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) GetDatabase() *Data_Database {$/;"	f
-GetDriver	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) GetDriver() string {$/;"	f
-GetGrpc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) GetGrpc() *Server_GRPC {$/;"	f
-GetHttp	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) GetHttp() *Server_HTTP {$/;"	f
-GetMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) GetMessage() string {$/;"	f
-GetName	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) GetName() string {$/;"	f
-GetNetwork	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetNetwork() string {$/;"	f
-GetNetwork	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) GetNetwork() string {$/;"	f
-GetNetwork	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) GetNetwork() string {$/;"	f
-GetReadTimeout	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetReadTimeout() *durationpb.Duration {$/;"	f
-GetRedis	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) GetRedis() *Data_Redis {$/;"	f
-GetServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) GetServer() *Server {$/;"	f
-GetSource	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) GetSource() string {$/;"	f
-GetTimeout	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) GetTimeout() *durationpb.Duration {$/;"	f
-GetTimeout	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) GetTimeout() *durationpb.Duration {$/;"	f
-GetWriteTimeout	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetWriteTimeout() *durationpb.Duration {$/;"	f
-Greeter	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^type Greeter struct {$/;"	t
-GreeterClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type GreeterClient interface {$/;"	t
-GreeterHTTPClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^type GreeterHTTPClient interface {$/;"	t
-GreeterHTTPClientImpl	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^type GreeterHTTPClientImpl struct {$/;"	t
-GreeterHTTPServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^type GreeterHTTPServer interface {$/;"	t
-GreeterRepo	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^type GreeterRepo interface {$/;"	t
-GreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type GreeterServer interface {$/;"	t
-GreeterService	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/greeter.go	/^type GreeterService struct {$/;"	t
-GreeterUsecase	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^type GreeterUsecase struct {$/;"	t
-Greeter_ServiceDesc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^var Greeter_ServiceDesc = grpc.ServiceDesc{$/;"	v
-HelloReply	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^type HelloReply struct {$/;"	t
-HelloReplyValidationError	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^type HelloReplyValidationError struct {$/;"	t
-HelloRequest	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^type HelloRequest struct {$/;"	t
-HelloRequestValidationError	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^type HelloRequestValidationError struct {$/;"	t
-INTERNAL_PROTO_FILES	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^INTERNAL_PROTO_FILES=$(shell find internal -name *.proto)$/;"	m
-IsContentMissing	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func IsContentMissing(err error) bool {$/;"	f
-IsUserNotFound	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func IsUserNotFound(err error) bool {$/;"	f
-Key	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Key() bool { return e.key }$/;"	f
-Key	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Key() bool { return e.key }$/;"	f
-Name	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	Name string$/;"	v
-NewData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/data.go	/^func NewData(c *conf.Data, logger log.Logger) (*Data, func(), error) {$/;"	f
-NewGRPCServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/grpc.go	/^func NewGRPCServer(c *conf.Server, greeter *service.GreeterService, logger log.Logger) *grpc.Server {$/;"	f
-NewGreeterClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func NewGreeterClient(cc grpc.ClientConnInterface) GreeterClient {$/;"	f
-NewGreeterHTTPClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^func NewGreeterHTTPClient(client *http.Client) GreeterHTTPClient {$/;"	f
-NewGreeterRepo	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^func NewGreeterRepo(data *Data, logger log.Logger) biz.GreeterRepo {$/;"	f
-NewGreeterService	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/greeter.go	/^func NewGreeterService(uc *biz.GreeterUsecase, logger log.Logger) *GreeterService {$/;"	f
-NewGreeterUsecase	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^func NewGreeterUsecase(repo GreeterRepo, logger log.Logger) *GreeterUsecase {$/;"	f
-NewHTTPServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/http.go	/^func NewHTTPServer(c *conf.Server, greeter *service.GreeterService, logger log.Logger) *http.Server {$/;"	f
-Number	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (x ErrorReason) Number() protoreflect.EnumNumber {$/;"	f
-ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloReply) ProtoMessage() {}$/;"	f
-ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloRequest) ProtoMessage() {}$/;"	f
-ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Bootstrap) ProtoMessage() {}$/;"	f
-ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data) ProtoMessage() {}$/;"	f
-ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data_Database) ProtoMessage() {}$/;"	f
-ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Data_Redis) ProtoMessage() {}$/;"	f
-ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server) ProtoMessage() {}$/;"	f
-ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server_GRPC) ProtoMessage() {}$/;"	f
-ProtoMessage	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (*Server_HTTP) ProtoMessage() {}$/;"	f
-ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) ProtoReflect() protoreflect.Message {$/;"	f
-ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) ProtoReflect() protoreflect.Message {$/;"	f
-ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) ProtoReflect() protoreflect.Message {$/;"	f
-ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) ProtoReflect() protoreflect.Message {$/;"	f
-ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) ProtoReflect() protoreflect.Message {$/;"	f
-ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) ProtoReflect() protoreflect.Message {$/;"	f
-ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) ProtoReflect() protoreflect.Message {$/;"	f
-ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) ProtoReflect() protoreflect.Message {$/;"	f
-ProtoReflect	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) ProtoReflect() protoreflect.Message {$/;"	f
-ProviderSet	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/biz.go	/^var ProviderSet = wire.NewSet(NewGreeterUsecase)$/;"	v
-ProviderSet	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/data.go	/^var ProviderSet = wire.NewSet(NewData, NewGreeterRepo)$/;"	v
-ProviderSet	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/server.go	/^var ProviderSet = wire.NewSet(NewHTTPServer, NewGRPCServer)$/;"	v
-ProviderSet	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/service.go	/^var ProviderSet = wire.NewSet(NewGreeterService)$/;"	v
-Reason	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Reason() string { return e.reason }$/;"	f
-Reason	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Reason() string { return e.reason }$/;"	f
-RegisterGreeterHTTPServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^func RegisterGreeterHTTPServer(s *http.Server, srv GreeterHTTPServer) {$/;"	f
-RegisterGreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func RegisterGreeterServer(s grpc.ServiceRegistrar, srv GreeterServer) {$/;"	f
-Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) Reset() {$/;"	f
-Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) Reset() {$/;"	f
-Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) Reset() {$/;"	f
-Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) Reset() {$/;"	f
-Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) Reset() {$/;"	f
-Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) Reset() {$/;"	f
-Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) Reset() {$/;"	f
-Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) Reset() {$/;"	f
-Reset	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) Reset() {$/;"	f
-SayHello	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func (UnimplementedGreeterServer) SayHello(context.Context, *HelloRequest) (*HelloReply, error) {$/;"	f
-SayHello	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func (c *greeterClient) SayHello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption) (*HelloReply, error) {$/;"	f
-SayHello	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^func (c *GreeterHTTPClientImpl) SayHello(ctx context.Context, in *HelloRequest, opts ...http.CallOption) (*HelloReply, error) {$/;"	f
-SayHello	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/greeter.go	/^func (s *GreeterService) SayHello(ctx context.Context, in *v1.HelloRequest) (*v1.HelloReply, error) {$/;"	f
-Server	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Server struct {$/;"	t
-Server_GRPC	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Server_GRPC struct {$/;"	t
-Server_HTTP	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^type Server_HTTP struct {$/;"	t
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (x ErrorReason) String() string {$/;"	f
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) String() string {$/;"	f
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) String() string {$/;"	f
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) String() string {$/;"	f
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data) String() string {$/;"	f
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) String() string {$/;"	f
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) String() string {$/;"	f
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server) String() string {$/;"	f
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) String() string {$/;"	f
-String	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) String() string {$/;"	f
-Type	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func (ErrorReason) Type() protoreflect.EnumType {$/;"	f
-UnimplementedGreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type UnimplementedGreeterServer struct {$/;"	t
-UnsafeGreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type UnsafeGreeterServer interface {$/;"	t
-Update	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^func (uc *GreeterUsecase) Update(ctx context.Context, g *Greeter) error {$/;"	f
-UpdateGreeter	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^func (r *greeterRepo) UpdateGreeter(ctx context.Context, g *biz.Greeter) error {$/;"	f
-VERSION	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/Makefile	/^VERSION=$(shell git describe --tags --always)$/;"	m
-Validate	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (m *HelloReply) Validate() error {$/;"	f
-Validate	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (m *HelloRequest) Validate() error {$/;"	f
-Version	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	Version string$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*mail.Address)(nil)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*regexp.Regexp)(nil)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*strings.Reader)(nil)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*url.URL)(nil)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = anypb.Any{}$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = bytes.MinRead$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = errors.New("")$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = fmt.Print$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = net.IPv4len$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = time.Duration(0)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = utf8.UTFMax$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^const _ = errors.SupportPackageIsVersion1$/;"	c
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*mail.Address)(nil)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*regexp.Regexp)(nil)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*strings.Reader)(nil)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*url.URL)(nil)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = anypb.Any{}$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = bytes.MinRead$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = errors.New("")$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = fmt.Print$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = net.IPv4len$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = time.Duration(0)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = utf8.UTFMax$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^var _ error = HelloReplyValidationError{}$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^var _ error = HelloRequestValidationError{}$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^var _ interface {$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^const _ = grpc.SupportPackageIsVersion7$/;"	c
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^const _ = http.SupportPackageIsVersion1$/;"	c
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^var _ = binding.EncodeURL$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^var _ = new(context.Context)$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	id, _ = os.Hostname()$/;"	v
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c
-_	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c
-_Greeter_SayHello0_HTTP_Handler	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^func _Greeter_SayHello0_HTTP_Handler(srv GreeterHTTPServer) func(ctx http.Context) error {$/;"	f
-_Greeter_SayHello_Handler	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func _Greeter_SayHello_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {$/;"	f
-biz	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/biz.go	/^package biz$/;"	p
-biz	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/biz/greeter.go	/^package biz$/;"	p
-conf	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^package conf$/;"	p
-data	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/data.go	/^package data$/;"	p
-data	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^package data$/;"	p
-file_api_helloworld_v1_error_reason_proto_depIdxs	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_depIdxs = []int32{$/;"	v
-file_api_helloworld_v1_error_reason_proto_enumTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_enumTypes = make([]protoimpl.EnumInfo, 1)$/;"	v
-file_api_helloworld_v1_error_reason_proto_goTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_goTypes = []interface{}{$/;"	v
-file_api_helloworld_v1_error_reason_proto_init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func file_api_helloworld_v1_error_reason_proto_init() {$/;"	f
-file_api_helloworld_v1_error_reason_proto_rawDesc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_rawDesc = []byte{$/;"	v
-file_api_helloworld_v1_error_reason_proto_rawDescData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	file_api_helloworld_v1_error_reason_proto_rawDescData = file_api_helloworld_v1_error_reason_proto_rawDesc$/;"	v
-file_api_helloworld_v1_error_reason_proto_rawDescGZIP	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func file_api_helloworld_v1_error_reason_proto_rawDescGZIP() []byte {$/;"	f
-file_api_helloworld_v1_error_reason_proto_rawDescOnce	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^	file_api_helloworld_v1_error_reason_proto_rawDescOnce sync.Once$/;"	v
-file_api_helloworld_v1_greeter_proto_depIdxs	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_depIdxs = []int32{$/;"	v
-file_api_helloworld_v1_greeter_proto_goTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_goTypes = []interface{}{$/;"	v
-file_api_helloworld_v1_greeter_proto_init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func file_api_helloworld_v1_greeter_proto_init() {$/;"	f
-file_api_helloworld_v1_greeter_proto_msgTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_msgTypes = make([]protoimpl.MessageInfo, 2)$/;"	v
-file_api_helloworld_v1_greeter_proto_rawDesc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_rawDesc = []byte{$/;"	v
-file_api_helloworld_v1_greeter_proto_rawDescData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^	file_api_helloworld_v1_greeter_proto_rawDescData = file_api_helloworld_v1_greeter_proto_rawDesc$/;"	v
-file_api_helloworld_v1_greeter_proto_rawDescGZIP	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func file_api_helloworld_v1_greeter_proto_rawDescGZIP() []byte {$/;"	f
-file_api_helloworld_v1_greeter_proto_rawDescOnce	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^	file_api_helloworld_v1_greeter_proto_rawDescOnce sync.Once$/;"	v
-file_internal_conf_conf_proto_depIdxs	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_depIdxs = []int32{$/;"	v
-file_internal_conf_conf_proto_goTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_goTypes = []interface{}{$/;"	v
-file_internal_conf_conf_proto_init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func file_internal_conf_conf_proto_init() {$/;"	f
-file_internal_conf_conf_proto_msgTypes	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_msgTypes = make([]protoimpl.MessageInfo, 7)$/;"	v
-file_internal_conf_conf_proto_rawDesc	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_rawDesc = []byte{$/;"	v
-file_internal_conf_conf_proto_rawDescData	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^	file_internal_conf_conf_proto_rawDescData = file_internal_conf_conf_proto_rawDesc$/;"	v
-file_internal_conf_conf_proto_rawDescGZIP	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func file_internal_conf_conf_proto_rawDescGZIP() []byte {$/;"	f
-file_internal_conf_conf_proto_rawDescOnce	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^	file_internal_conf_conf_proto_rawDescOnce sync.Once$/;"	v
-flagconf	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	flagconf string$/;"	v
-generate	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/generate.go	/^package generate$/;"	p
-greeterClient	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type greeterClient struct {$/;"	t
-greeterRepo	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/data/greeter.go	/^type greeterRepo struct {$/;"	t
-id	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^	id, _ = os.Hostname()$/;"	v
-init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^func init() { file_api_helloworld_v1_error_reason_proto_init() }$/;"	f
-init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^func init() { file_api_helloworld_v1_greeter_proto_init() }$/;"	f
-init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^func init() {$/;"	f
-init	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/conf/conf.pb.go	/^func init() { file_internal_conf_conf_proto_init() }$/;"	f
-initApp	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/wire.go	/^func initApp(*conf.Server, *conf.Data, log.Logger) (*kratos.App, func(), error) {$/;"	f
-initApp	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/wire_gen.go	/^func initApp(confServer *conf.Server, confData *conf.Data, logger log.Logger) (*kratos.App, func(), error) {$/;"	f
-main	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^func main() {$/;"	f
-main	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/wire.go	/^package main$/;"	p
-main	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/wire_gen.go	/^package main$/;"	p
-mustEmbedUnimplementedGreeterServer	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func (UnimplementedGreeterServer) mustEmbedUnimplementedGreeterServer() {}$/;"	f
-newApp	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/cmd/helloworld/main.go	/^func newApp(logger log.Logger, hs *http.Server, gs *grpc.Server) *kratos.App {$/;"	f
-server	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/grpc.go	/^package server$/;"	p
-server	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/http.go	/^package server$/;"	p
-server	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/server/server.go	/^package server$/;"	p
-service	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/greeter.go	/^package service$/;"	p
-service	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/internal/service/service.go	/^package service$/;"	p
-v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.go	/^package v1$/;"	p
-v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^package v1$/;"	p
-v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^package v1$/;"	p
-v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.go	/^package v1$/;"	p
-v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter.pb.validate.go	/^package v1$/;"	p
-v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^package v1$/;"	p
-v1	/home/zhouxinchi/桌面/golang-workspace/project-layout/helloworld/api/helloworld/v1/greeter_http.pb.go	/^package v1$/;"	p
+.DEFAULT_GOAL	helloworld/Makefile	/^.DEFAULT_GOAL := help$/;"	m
+API_PROTO_FILES	helloworld/Makefile	/^API_PROTO_FILES=$(shell find api -name *.proto)$/;"	m
+Accept	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) Accept(lis net.Listener) {$/;"	f
+Accept	plus-go-kit/pkg/geerpc/server.go	/^func Accept(lis net.Listener) { DefaultServer.Accept(lis) }$/;"	f
+Account	plus-go-kit/pkg/geeorm/session/hooks_test.go	/^type Account struct {$/;"	t
+Add	plus-go-kit/pkg/geecache/consistenthash/consistenthash.go	/^func (m *Map) Add(keys ...string) {$/;"	f
+Add	plus-go-kit/pkg/geecache/lru/lru.go	/^func (c *Cache) Add(key string, value Value) {$/;"	f
+AfterDelete	plus-go-kit/pkg/geeorm/session/hooks.go	/^	AfterDelete  = "AfterDelete"$/;"	c
+AfterInsert	plus-go-kit/pkg/geeorm/session/hooks.go	/^	AfterInsert  = "AfterInsert"$/;"	c
+AfterQuery	plus-go-kit/pkg/geeorm/session/hooks.go	/^	AfterQuery   = "AfterQuery"$/;"	c
+AfterQuery	plus-go-kit/pkg/geeorm/session/hooks_test.go	/^func (account *Account) AfterQuery(s *Session) error {$/;"	f
+AfterUpdate	plus-go-kit/pkg/geeorm/session/hooks.go	/^	AfterUpdate  = "AfterUpdate"$/;"	c
+Args	plus-go-kit/pkg/geerpc/main/main.go	/^type Args struct{ Num1, Num2 int }$/;"	t
+Args	plus-go-kit/pkg/geerpc/service_test.go	/^type Args struct{ Num1, Num2 int }$/;"	t
+Bar	plus-go-kit/pkg/geerpc/client_test.go	/^type Bar int$/;"	t
+BeforeDelete	plus-go-kit/pkg/geeorm/session/hooks.go	/^	BeforeDelete = "BeforeDelete"$/;"	c
+BeforeInsert	plus-go-kit/pkg/geeorm/session/hooks.go	/^	BeforeInsert = "BeforeInsert"$/;"	c
+BeforeInsert	plus-go-kit/pkg/geeorm/session/hooks_test.go	/^func (account *Account) BeforeInsert(s *Session) error {$/;"	f
+BeforeQuery	plus-go-kit/pkg/geeorm/session/hooks.go	/^	BeforeQuery  = "BeforeQuery"$/;"	c
+BeforeUpdate	plus-go-kit/pkg/geeorm/session/hooks.go	/^	BeforeUpdate = "BeforeUpdate"$/;"	c
+Begin	plus-go-kit/pkg/geeorm/session/transaction.go	/^func (s *Session) Begin() (err error) {$/;"	f
+Bootstrap	helloworld/internal/conf/conf.pb.go	/^type Bootstrap struct {$/;"	t
+Broadcast	plus-go-kit/pkg/geerpc/xclient/xclient.go	/^func (xc *XClient) Broadcast(ctx context.Context, serviceMethod string, args, reply interface{}) error {$/;"	f
+Build	plus-go-kit/pkg/geeorm/clause/clause.go	/^func (c *Clause) Build(orders ...Type) (string, []interface{}) {$/;"	f
+ByteSlice	plus-go-kit/pkg/geecache/byteview.go	/^func (v ByteView) ByteSlice() []byte {$/;"	f
+ByteView	plus-go-kit/pkg/geecache/byteview.go	/^type ByteView struct {$/;"	t
+COUNT	plus-go-kit/pkg/geeorm/clause/clause.go	/^	COUNT$/;"	c
+Cache	plus-go-kit/pkg/geecache/lru/lru.go	/^type Cache struct {$/;"	t
+Call	plus-go-kit/pkg/geerpc/client.go	/^func (client *Client) Call(ctx context.Context, serviceMethod string, args, reply interface{}) error {$/;"	f
+Call	plus-go-kit/pkg/geerpc/client.go	/^type Call struct {$/;"	t
+Call	plus-go-kit/pkg/geerpc/xclient/xclient.go	/^func (xc *XClient) Call(ctx context.Context, serviceMethod string, args, reply interface{}) error {$/;"	f
+CallMethod	plus-go-kit/pkg/geeorm/session/hooks.go	/^func (s *Session) CallMethod(method string, value interface{}) {$/;"	f
+Cause	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Cause() error { return e.cause }$/;"	f
+Cause	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Cause() error { return e.cause }$/;"	f
+Clause	plus-go-kit/pkg/geeorm/clause/clause.go	/^type Clause struct {$/;"	t
+Clear	plus-go-kit/pkg/geeorm/session/raw.go	/^func (s *Session) Clear() {$/;"	f
+Client	plus-go-kit/pkg/geerpc/client.go	/^type Client struct {$/;"	t
+Close	plus-go-kit/pkg/geeorm/geeorm.go	/^func (engine *Engine) Close() {$/;"	f
+Close	plus-go-kit/pkg/geerpc/client.go	/^func (client *Client) Close() error {$/;"	f
+Close	plus-go-kit/pkg/geerpc/codec/gob.go	/^func (c *GobCodec) Close() error {$/;"	f
+Close	plus-go-kit/pkg/geerpc/xclient/xclient.go	/^func (xc *XClient) Close() error {$/;"	f
+Codec	plus-go-kit/pkg/geerpc/codec/codec.go	/^type Codec interface {$/;"	t
+Commit	plus-go-kit/pkg/geeorm/session/transaction.go	/^func (s *Session) Commit() (err error) {$/;"	f
+CommonDB	plus-go-kit/pkg/geeorm/session/raw.go	/^type CommonDB interface {$/;"	t
+Context	plus-go-kit/pkg/gee/context.go	/^type Context struct {$/;"	t
+Count	plus-go-kit/pkg/geeorm/session/record.go	/^func (s *Session) Count() (int64, error) {$/;"	f
+Create	helloworld/internal/biz/greeter.go	/^func (uc *GreeterUsecase) Create(ctx context.Context, g *Greeter) error {$/;"	f
+CreateGreeter	helloworld/internal/data/greeter.go	/^func (r *greeterRepo) CreateGreeter(ctx context.Context, g *biz.Greeter) error {$/;"	f
+CreateTable	plus-go-kit/pkg/geeorm/session/table.go	/^func (s *Session) CreateTable() error {$/;"	f
+DB	plus-go-kit/pkg/geeorm/session/raw.go	/^func (s *Session) DB() CommonDB {$/;"	f
+DELETE	plus-go-kit/pkg/geeorm/clause/clause.go	/^	DELETE$/;"	c
+Data	helloworld/internal/conf/conf.pb.go	/^type Data struct {$/;"	t
+Data	helloworld/internal/data/data.go	/^type Data struct {$/;"	t
+Data	plus-go-kit/pkg/gee/context.go	/^func (c *Context) Data(code int, data []byte) {$/;"	f
+DataTypeOf	plus-go-kit/pkg/geeorm/dialect/sqlite3.go	/^func (s *sqlite3) DataTypeOf(typ reflect.Value) string {$/;"	f
+Data_Database	helloworld/internal/conf/conf.pb.go	/^type Data_Database struct {$/;"	t
+Data_Redis	helloworld/internal/conf/conf.pb.go	/^type Data_Redis struct {$/;"	t
+Default	plus-go-kit/pkg/gee/gee.go	/^func Default() *Engine {$/;"	f
+DefaultGeeRegister	plus-go-kit/pkg/geerpc/registry/registry.go	/^var DefaultGeeRegister = New(defaultTimeout)$/;"	v
+DefaultOption	plus-go-kit/pkg/geerpc/server.go	/^var DefaultOption = &Option{$/;"	v
+DefaultServer	plus-go-kit/pkg/geerpc/server.go	/^var DefaultServer = NewServer()$/;"	v
+Delete	plus-go-kit/pkg/geeorm/session/record.go	/^func (s *Session) Delete() (int64, error) {$/;"	f
+Descriptor	helloworld/api/helloworld/v1/error_reason.pb.go	/^func (ErrorReason) Descriptor() protoreflect.EnumDescriptor {$/;"	f
+Descriptor	helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloReply) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloRequest) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	helloworld/internal/conf/conf.pb.go	/^func (*Bootstrap) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	helloworld/internal/conf/conf.pb.go	/^func (*Data) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	helloworld/internal/conf/conf.pb.go	/^func (*Data_Database) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	helloworld/internal/conf/conf.pb.go	/^func (*Data_Redis) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	helloworld/internal/conf/conf.pb.go	/^func (*Server) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	helloworld/internal/conf/conf.pb.go	/^func (*Server_GRPC) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	helloworld/internal/conf/conf.pb.go	/^func (*Server_HTTP) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (*Request) Descriptor() ([]byte, []int) {$/;"	f
+Descriptor	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (*Response) Descriptor() ([]byte, []int) {$/;"	f
+Dial	plus-go-kit/pkg/geerpc/client.go	/^func Dial(network, address string, opts ...*Option) (*Client, error) {$/;"	f
+DialHTTP	plus-go-kit/pkg/geerpc/client.go	/^func DialHTTP(network, address string, opts ...*Option) (*Client, error) {$/;"	f
+Dialect	plus-go-kit/pkg/geeorm/dialect/dialect.go	/^type Dialect interface {$/;"	t
+Disabled	plus-go-kit/pkg/geeorm/log/log.go	/^	Disabled$/;"	c
+Discovery	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^type Discovery interface {$/;"	t
+Do	plus-go-kit/pkg/geecache/singleflight/singleflight.go	/^func (g *Group) Do(key string, fn func() (interface{}, error)) (interface{}, error) {$/;"	f
+DropTable	plus-go-kit/pkg/geeorm/session/table.go	/^func (s *Session) DropTable() error {$/;"	f
+Engine	plus-go-kit/pkg/gee/gee.go	/^	Engine struct {$/;"	t
+Engine	plus-go-kit/pkg/geeorm/geeorm.go	/^type Engine struct {$/;"	t
+Enum	helloworld/api/helloworld/v1/error_reason.pb.go	/^func (x ErrorReason) Enum() *ErrorReason {$/;"	f
+EnumDescriptor	helloworld/api/helloworld/v1/error_reason.pb.go	/^func (ErrorReason) EnumDescriptor() ([]byte, []int) {$/;"	f
+ErrShutdown	plus-go-kit/pkg/geerpc/client.go	/^var ErrShutdown = errors.New("connection is shut down")$/;"	v
+Error	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Error() string {$/;"	f
+Error	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Error() string {$/;"	f
+Error	plus-go-kit/pkg/geeorm/log/log.go	/^	Error  = errorLog.Println$/;"	v
+ErrorContentMissing	helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func ErrorContentMissing(format string, args ...interface{}) *errors.Error {$/;"	f
+ErrorLevel	plus-go-kit/pkg/geeorm/log/log.go	/^	ErrorLevel$/;"	c
+ErrorName	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) ErrorName() string { return "HelloReplyValidationError" }$/;"	f
+ErrorName	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) ErrorName() string { return "HelloRequestValidationError" }$/;"	f
+ErrorReason	helloworld/api/helloworld/v1/error_reason.pb.go	/^type ErrorReason int32$/;"	t
+ErrorReason_CONTENT_MISSING	helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_CONTENT_MISSING ErrorReason = 1$/;"	c
+ErrorReason_USER_NOT_FOUND	helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_USER_NOT_FOUND  ErrorReason = 0$/;"	c
+ErrorReason_name	helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_name = map[int32]string{$/;"	v
+ErrorReason_value	helloworld/api/helloworld/v1/error_reason.pb.go	/^	ErrorReason_value = map[string]int32{$/;"	v
+ErrorUserNotFound	helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func ErrorUserNotFound(format string, args ...interface{}) *errors.Error {$/;"	f
+Errorf	plus-go-kit/pkg/geeorm/log/log.go	/^	Errorf = errorLog.Printf$/;"	v
+Exec	plus-go-kit/pkg/geeorm/session/raw.go	/^func (s *Session) Exec() (result sql.Result, err error) {$/;"	f
+Fail	plus-go-kit/pkg/gee/context.go	/^func (c *Context) Fail(code int, err string) {$/;"	f
+Field	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Field() string { return e.field }$/;"	f
+Field	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Field() string { return e.field }$/;"	f
+Field	plus-go-kit/pkg/geeorm/schema/schema.go	/^type Field struct {$/;"	t
+File_api_helloworld_v1_error_reason_proto	helloworld/api/helloworld/v1/error_reason.pb.go	/^var File_api_helloworld_v1_error_reason_proto protoreflect.FileDescriptor$/;"	v
+File_api_helloworld_v1_greeter_proto	helloworld/api/helloworld/v1/greeter.pb.go	/^var File_api_helloworld_v1_greeter_proto protoreflect.FileDescriptor$/;"	v
+File_internal_conf_conf_proto	helloworld/internal/conf/conf.pb.go	/^var File_internal_conf_conf_proto protoreflect.FileDescriptor$/;"	v
+Find	plus-go-kit/pkg/geeorm/session/record.go	/^func (s *Session) Find(values interface{}) error {$/;"	f
+First	plus-go-kit/pkg/geeorm/session/record.go	/^func (s *Session) First(value interface{}) error {$/;"	f
+Foo	plus-go-kit/pkg/geerpc/main/main.go	/^type Foo int$/;"	t
+Foo	plus-go-kit/pkg/geerpc/service_test.go	/^type Foo int$/;"	t
+GET	plus-go-kit/pkg/gee/gee.go	/^func (group *RouterGroup) GET(pattern string, handler HandlerFunc) {$/;"	f
+GOPATH	helloworld/Makefile	/^GOPATH:=$(shell go env GOPATH)$/;"	m
+GeeRegistry	plus-go-kit/pkg/geerpc/registry/registry.go	/^type GeeRegistry struct {$/;"	t
+GeeRegistryDiscovery	plus-go-kit/pkg/geerpc/xclient/discovery_gee.go	/^type GeeRegistryDiscovery struct {$/;"	t
+Get	plus-go-kit/pkg/geecache/consistenthash/consistenthash.go	/^func (m *Map) Get(key string) string {$/;"	f
+Get	plus-go-kit/pkg/geecache/geecache.go	/^func (f GetterFunc) Get(key string) ([]byte, error) {$/;"	f
+Get	plus-go-kit/pkg/geecache/geecache.go	/^func (g *Group) Get(key string) (ByteView, error) {$/;"	f
+Get	plus-go-kit/pkg/geecache/http.go	/^func (h *httpGetter) Get(in *pb.Request, out *pb.Response) error {$/;"	f
+Get	plus-go-kit/pkg/geecache/lru/lru.go	/^func (c *Cache) Get(key string) (value Value, ok bool) {$/;"	f
+Get	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^func (d *MultiServersDiscovery) Get(mode SelectMode) (string, error) {$/;"	f
+Get	plus-go-kit/pkg/geerpc/xclient/discovery_gee.go	/^func (d *GeeRegistryDiscovery) Get(mode SelectMode) (string, error) {$/;"	f
+GetAddr	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetAddr() string {$/;"	f
+GetAddr	helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) GetAddr() string {$/;"	f
+GetAddr	helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) GetAddr() string {$/;"	f
+GetAll	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^func (d *MultiServersDiscovery) GetAll() ([]string, error) {$/;"	f
+GetAll	plus-go-kit/pkg/geerpc/xclient/discovery_gee.go	/^func (d *GeeRegistryDiscovery) GetAll() ([]string, error) {$/;"	f
+GetData	helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) GetData() *Data {$/;"	f
+GetDatabase	helloworld/internal/conf/conf.pb.go	/^func (x *Data) GetDatabase() *Data_Database {$/;"	f
+GetDialect	plus-go-kit/pkg/geeorm/dialect/dialect.go	/^func GetDialect(name string) (dialect Dialect, ok bool) {$/;"	f
+GetDriver	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) GetDriver() string {$/;"	f
+GetField	plus-go-kit/pkg/geeorm/schema/schema.go	/^func (schema *Schema) GetField(name string) *Field {$/;"	f
+GetGroup	plus-go-kit/pkg/geecache/geecache.go	/^func GetGroup(name string) *Group {$/;"	f
+GetGroup	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Request) GetGroup() string {$/;"	f
+GetGrpc	helloworld/internal/conf/conf.pb.go	/^func (x *Server) GetGrpc() *Server_GRPC {$/;"	f
+GetHttp	helloworld/internal/conf/conf.pb.go	/^func (x *Server) GetHttp() *Server_HTTP {$/;"	f
+GetKey	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Request) GetKey() string {$/;"	f
+GetMessage	helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) GetMessage() string {$/;"	f
+GetName	helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) GetName() string {$/;"	f
+GetNetwork	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetNetwork() string {$/;"	f
+GetNetwork	helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) GetNetwork() string {$/;"	f
+GetNetwork	helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) GetNetwork() string {$/;"	f
+GetReadTimeout	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetReadTimeout() *durationpb.Duration {$/;"	f
+GetRedis	helloworld/internal/conf/conf.pb.go	/^func (x *Data) GetRedis() *Data_Redis {$/;"	f
+GetServer	helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) GetServer() *Server {$/;"	f
+GetSource	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) GetSource() string {$/;"	f
+GetTimeout	helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) GetTimeout() *durationpb.Duration {$/;"	f
+GetTimeout	helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) GetTimeout() *durationpb.Duration {$/;"	f
+GetValue	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Response) GetValue() []byte {$/;"	f
+GetWriteTimeout	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) GetWriteTimeout() *durationpb.Duration {$/;"	f
+Getter	plus-go-kit/pkg/geecache/geecache.go	/^type Getter interface {$/;"	t
+GetterFunc	plus-go-kit/pkg/geecache/geecache.go	/^type GetterFunc func(key string) ([]byte, error)$/;"	t
+Go	plus-go-kit/pkg/geerpc/client.go	/^func (client *Client) Go(serviceMethod string, args, reply interface{}, done chan *Call) *Call {$/;"	f
+GobCodec	plus-go-kit/pkg/geerpc/codec/gob.go	/^type GobCodec struct {$/;"	t
+GobType	plus-go-kit/pkg/geerpc/codec/codec.go	/^	GobType  Type = "application\/gob"$/;"	c
+Greeter	helloworld/internal/biz/greeter.go	/^type Greeter struct {$/;"	t
+GreeterClient	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type GreeterClient interface {$/;"	t
+GreeterHTTPClient	helloworld/api/helloworld/v1/greeter_http.pb.go	/^type GreeterHTTPClient interface {$/;"	t
+GreeterHTTPClientImpl	helloworld/api/helloworld/v1/greeter_http.pb.go	/^type GreeterHTTPClientImpl struct {$/;"	t
+GreeterHTTPServer	helloworld/api/helloworld/v1/greeter_http.pb.go	/^type GreeterHTTPServer interface {$/;"	t
+GreeterRepo	helloworld/internal/biz/greeter.go	/^type GreeterRepo interface {$/;"	t
+GreeterServer	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type GreeterServer interface {$/;"	t
+GreeterService	helloworld/internal/service/greeter.go	/^type GreeterService struct {$/;"	t
+GreeterUsecase	helloworld/internal/biz/greeter.go	/^type GreeterUsecase struct {$/;"	t
+Greeter_ServiceDesc	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^var Greeter_ServiceDesc = grpc.ServiceDesc{$/;"	v
+Group	plus-go-kit/pkg/gee/gee.go	/^func (group *RouterGroup) Group(prefix string) *RouterGroup {$/;"	f
+Group	plus-go-kit/pkg/geecache/geecache.go	/^type Group struct {$/;"	t
+Group	plus-go-kit/pkg/geecache/singleflight/singleflight.go	/^type Group struct {$/;"	t
+H	plus-go-kit/pkg/gee/context.go	/^type H map[string]interface{}$/;"	t
+HTML	plus-go-kit/pkg/gee/context.go	/^func (c *Context) HTML(code int, name string, data interface{}) {$/;"	f
+HTTPPool	plus-go-kit/pkg/geecache/http.go	/^type HTTPPool struct {$/;"	t
+HandleHTTP	plus-go-kit/pkg/geerpc/registry/registry.go	/^func (r *GeeRegistry) HandleHTTP(registryPath string) {$/;"	f
+HandleHTTP	plus-go-kit/pkg/geerpc/registry/registry.go	/^func HandleHTTP() {$/;"	f
+HandleHTTP	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) HandleHTTP() {$/;"	f
+HandleHTTP	plus-go-kit/pkg/geerpc/server.go	/^func HandleHTTP() {$/;"	f
+HandlerFunc	plus-go-kit/pkg/gee/gee.go	/^type HandlerFunc func(*Context)$/;"	t
+HasTable	plus-go-kit/pkg/geeorm/session/table.go	/^func (s *Session) HasTable() bool {$/;"	f
+Hash	plus-go-kit/pkg/geecache/consistenthash/consistenthash.go	/^type Hash func(data []byte) uint32$/;"	t
+Header	plus-go-kit/pkg/geerpc/codec/codec.go	/^type Header struct {$/;"	t
+Heartbeat	plus-go-kit/pkg/geerpc/registry/registry.go	/^func Heartbeat(registry, addr string, duration time.Duration) {$/;"	f
+HelloReply	helloworld/api/helloworld/v1/greeter.pb.go	/^type HelloReply struct {$/;"	t
+HelloReplyValidationError	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^type HelloReplyValidationError struct {$/;"	t
+HelloRequest	helloworld/api/helloworld/v1/greeter.pb.go	/^type HelloRequest struct {$/;"	t
+HelloRequestValidationError	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^type HelloRequestValidationError struct {$/;"	t
+INSERT	plus-go-kit/pkg/geeorm/clause/clause.go	/^	INSERT Type = iota$/;"	c
+INTERNAL_PROTO_FILES	helloworld/Makefile	/^INTERNAL_PROTO_FILES=$(shell find internal -name *.proto)$/;"	m
+ITableName	plus-go-kit/pkg/geeorm/schema/schema.go	/^type ITableName interface {$/;"	t
+Info	plus-go-kit/pkg/geeorm/log/log.go	/^	Info   = infoLog.Println$/;"	v
+InfoLevel	plus-go-kit/pkg/geeorm/log/log.go	/^	InfoLevel = iota$/;"	c
+Infof	plus-go-kit/pkg/geeorm/log/log.go	/^	Infof  = infoLog.Printf$/;"	v
+Insert	plus-go-kit/pkg/geeorm/session/record.go	/^func (s *Session) Insert(values ...interface{}) (int64, error) {$/;"	f
+IsAvailable	plus-go-kit/pkg/geerpc/client.go	/^func (client *Client) IsAvailable() bool {$/;"	f
+IsContentMissing	helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func IsContentMissing(err error) bool {$/;"	f
+IsUserNotFound	helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^func IsUserNotFound(err error) bool {$/;"	f
+JSON	plus-go-kit/pkg/gee/context.go	/^func (c *Context) JSON(code int, obj interface{}) {$/;"	f
+JsonType	plus-go-kit/pkg/geerpc/codec/codec.go	/^	JsonType Type = "application\/json" \/\/ not implemented$/;"	c
+Key	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Key() bool { return e.key }$/;"	f
+Key	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Key() bool { return e.key }$/;"	f
+LIMIT	plus-go-kit/pkg/geeorm/clause/clause.go	/^	LIMIT$/;"	c
+Len	plus-go-kit/pkg/geecache/byteview.go	/^func (v ByteView) Len() int {$/;"	f
+Len	plus-go-kit/pkg/geecache/lru/lru.go	/^func (c *Cache) Len() int {$/;"	f
+Len	plus-go-kit/pkg/geecache/lru/lru_test.go	/^func (d String) Len() int {$/;"	f
+Limit	plus-go-kit/pkg/geeorm/session/record.go	/^func (s *Session) Limit(num int) *Session {$/;"	f
+LoadHTMLGlob	plus-go-kit/pkg/gee/gee.go	/^func (engine *Engine) LoadHTMLGlob(pattern string) {$/;"	f
+Log	plus-go-kit/pkg/geecache/http.go	/^func (p *HTTPPool) Log(format string, v ...interface{}) {$/;"	f
+Logger	plus-go-kit/pkg/gee/logger.go	/^func Logger() HandlerFunc {$/;"	f
+MagicNumber	plus-go-kit/pkg/geerpc/server.go	/^const MagicNumber = 0x3bef5c$/;"	c
+Map	plus-go-kit/pkg/geecache/consistenthash/consistenthash.go	/^type Map struct {$/;"	t
+Migrate	plus-go-kit/pkg/geeorm/geeorm.go	/^func (engine *Engine) Migrate(value interface{}) error {$/;"	f
+Model	plus-go-kit/pkg/geeorm/session/table.go	/^func (s *Session) Model(value interface{}) *Session {$/;"	f
+MultiServersDiscovery	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^type MultiServersDiscovery struct {$/;"	t
+Name	helloworld/cmd/helloworld/main.go	/^	Name string$/;"	v
+New	plus-go-kit/pkg/gee/gee.go	/^func New() *Engine {$/;"	f
+New	plus-go-kit/pkg/geecache/consistenthash/consistenthash.go	/^func New(replicas int, fn Hash) *Map {$/;"	f
+New	plus-go-kit/pkg/geecache/lru/lru.go	/^func New(maxBytes int64, onEvicted func(string, Value)) *Cache {$/;"	f
+New	plus-go-kit/pkg/geeorm/session/raw.go	/^func New(db *sql.DB, dialect dialect.Dialect) *Session {$/;"	f
+New	plus-go-kit/pkg/geerpc/registry/registry.go	/^func New(timeout time.Duration) *GeeRegistry {$/;"	f
+NewClient	plus-go-kit/pkg/geerpc/client.go	/^func NewClient(conn net.Conn, opt *Option) (*Client, error) {$/;"	f
+NewCodecFunc	plus-go-kit/pkg/geerpc/codec/codec.go	/^type NewCodecFunc func(io.ReadWriteCloser) Codec$/;"	t
+NewCodecFuncMap	plus-go-kit/pkg/geerpc/codec/codec.go	/^var NewCodecFuncMap map[Type]NewCodecFunc$/;"	v
+NewData	helloworld/internal/data/data.go	/^func NewData(c *conf.Data, logger log.Logger) (*Data, func(), error) {$/;"	f
+NewEngine	plus-go-kit/pkg/geeorm/geeorm.go	/^func NewEngine(driver, source string) (e *Engine, err error) {$/;"	f
+NewGRPCServer	helloworld/internal/server/grpc.go	/^func NewGRPCServer(c *conf.Server, greeter *service.GreeterService, logger log.Logger) *grpc.Server {$/;"	f
+NewGeeRegistryDiscovery	plus-go-kit/pkg/geerpc/xclient/discovery_gee.go	/^func NewGeeRegistryDiscovery(registerAddr string, timeout time.Duration) *GeeRegistryDiscovery {$/;"	f
+NewGobCodec	plus-go-kit/pkg/geerpc/codec/gob.go	/^func NewGobCodec(conn io.ReadWriteCloser) Codec {$/;"	f
+NewGreeterClient	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func NewGreeterClient(cc grpc.ClientConnInterface) GreeterClient {$/;"	f
+NewGreeterHTTPClient	helloworld/api/helloworld/v1/greeter_http.pb.go	/^func NewGreeterHTTPClient(client *http.Client) GreeterHTTPClient {$/;"	f
+NewGreeterRepo	helloworld/internal/data/greeter.go	/^func NewGreeterRepo(data *Data, logger log.Logger) biz.GreeterRepo {$/;"	f
+NewGreeterService	helloworld/internal/service/greeter.go	/^func NewGreeterService(uc *biz.GreeterUsecase, logger log.Logger) *GreeterService {$/;"	f
+NewGreeterUsecase	helloworld/internal/biz/greeter.go	/^func NewGreeterUsecase(repo GreeterRepo, logger log.Logger) *GreeterUsecase {$/;"	f
+NewGroup	plus-go-kit/pkg/geecache/geecache.go	/^func NewGroup(name string, cacheBytes int64, getter Getter) *Group {$/;"	f
+NewHTTPClient	plus-go-kit/pkg/geerpc/client.go	/^func NewHTTPClient(conn net.Conn, opt *Option) (*Client, error) {$/;"	f
+NewHTTPPool	plus-go-kit/pkg/geecache/http.go	/^func NewHTTPPool(self string) *HTTPPool {$/;"	f
+NewHTTPServer	helloworld/internal/server/http.go	/^func NewHTTPServer(c *conf.Server, greeter *service.GreeterService, logger log.Logger) *http.Server {$/;"	f
+NewMultiServerDiscovery	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^func NewMultiServerDiscovery(servers []string) *MultiServersDiscovery {$/;"	f
+NewServer	plus-go-kit/pkg/geerpc/server.go	/^func NewServer() *Server {$/;"	f
+NewSession	plus-go-kit/pkg/geeorm/geeorm.go	/^func (engine *Engine) NewSession() *session.Session {$/;"	f
+NewSession	plus-go-kit/pkg/geeorm/session/raw_test.go	/^func NewSession() *Session {$/;"	f
+NewXClient	plus-go-kit/pkg/geerpc/xclient/xclient.go	/^func NewXClient(d Discovery, mode SelectMode, opt *Option) *XClient {$/;"	f
+Next	plus-go-kit/pkg/gee/context.go	/^func (c *Context) Next() {$/;"	f
+NumCalls	plus-go-kit/pkg/geerpc/service.go	/^func (m *methodType) NumCalls() uint64 {$/;"	f
+Number	helloworld/api/helloworld/v1/error_reason.pb.go	/^func (x ErrorReason) Number() protoreflect.EnumNumber {$/;"	f
+ORDERBY	plus-go-kit/pkg/geeorm/clause/clause.go	/^	ORDERBY$/;"	c
+OpenDB	plus-go-kit/pkg/geeorm/geeorm_test.go	/^func OpenDB(t *testing.T) *Engine {$/;"	f
+Option	plus-go-kit/pkg/geerpc/server.go	/^type Option struct {$/;"	t
+OrderBy	plus-go-kit/pkg/geeorm/session/record.go	/^func (s *Session) OrderBy(desc string) *Session {$/;"	f
+POST	plus-go-kit/pkg/gee/gee.go	/^func (group *RouterGroup) POST(pattern string, handler HandlerFunc) {$/;"	f
+Param	plus-go-kit/pkg/gee/context.go	/^func (c *Context) Param(key string) string {$/;"	f
+Parse	plus-go-kit/pkg/geeorm/schema/schema.go	/^func Parse(dest interface{}, d dialect.Dialect) *Schema {$/;"	f
+PeerGetter	plus-go-kit/pkg/geecache/peers.go	/^type PeerGetter interface {$/;"	t
+PeerPicker	plus-go-kit/pkg/geecache/peers.go	/^type PeerPicker interface {$/;"	t
+PickPeer	plus-go-kit/pkg/geecache/http.go	/^func (p *HTTPPool) PickPeer(key string) (PeerGetter, bool) {$/;"	f
+PostForm	plus-go-kit/pkg/gee/context.go	/^func (c *Context) PostForm(key string) string {$/;"	f
+ProtoMessage	helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloReply) ProtoMessage() {}$/;"	f
+ProtoMessage	helloworld/api/helloworld/v1/greeter.pb.go	/^func (*HelloRequest) ProtoMessage() {}$/;"	f
+ProtoMessage	helloworld/internal/conf/conf.pb.go	/^func (*Bootstrap) ProtoMessage() {}$/;"	f
+ProtoMessage	helloworld/internal/conf/conf.pb.go	/^func (*Data) ProtoMessage() {}$/;"	f
+ProtoMessage	helloworld/internal/conf/conf.pb.go	/^func (*Data_Database) ProtoMessage() {}$/;"	f
+ProtoMessage	helloworld/internal/conf/conf.pb.go	/^func (*Data_Redis) ProtoMessage() {}$/;"	f
+ProtoMessage	helloworld/internal/conf/conf.pb.go	/^func (*Server) ProtoMessage() {}$/;"	f
+ProtoMessage	helloworld/internal/conf/conf.pb.go	/^func (*Server_GRPC) ProtoMessage() {}$/;"	f
+ProtoMessage	helloworld/internal/conf/conf.pb.go	/^func (*Server_HTTP) ProtoMessage() {}$/;"	f
+ProtoMessage	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (*Request) ProtoMessage()    {}$/;"	f
+ProtoMessage	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (*Response) ProtoMessage()    {}$/;"	f
+ProtoReflect	helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	helloworld/internal/conf/conf.pb.go	/^func (x *Data) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	helloworld/internal/conf/conf.pb.go	/^func (x *Server) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) ProtoReflect() protoreflect.Message {$/;"	f
+ProtoReflect	helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) ProtoReflect() protoreflect.Message {$/;"	f
+ProviderSet	helloworld/internal/biz/biz.go	/^var ProviderSet = wire.NewSet(NewGreeterUsecase)$/;"	v
+ProviderSet	helloworld/internal/data/data.go	/^var ProviderSet = wire.NewSet(NewData, NewGreeterRepo)$/;"	v
+ProviderSet	helloworld/internal/server/server.go	/^var ProviderSet = wire.NewSet(NewHTTPServer, NewGRPCServer)$/;"	v
+ProviderSet	helloworld/internal/service/service.go	/^var ProviderSet = wire.NewSet(NewGreeterService)$/;"	v
+Query	plus-go-kit/pkg/gee/context.go	/^func (c *Context) Query(key string) string {$/;"	f
+QueryRow	plus-go-kit/pkg/geeorm/session/raw.go	/^func (s *Session) QueryRow() *sql.Row {$/;"	f
+QueryRows	plus-go-kit/pkg/geeorm/session/raw.go	/^func (s *Session) QueryRows() (rows *sql.Rows, err error) {$/;"	f
+RandomSelect	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^	RandomSelect     SelectMode = iota \/\/ select randomly$/;"	c
+ReadBody	plus-go-kit/pkg/geerpc/codec/gob.go	/^func (c *GobCodec) ReadBody(body interface{}) error {$/;"	f
+ReadHeader	plus-go-kit/pkg/geerpc/codec/gob.go	/^func (c *GobCodec) ReadHeader(h *Header) error {$/;"	f
+Reason	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloReplyValidationError) Reason() string { return e.reason }$/;"	f
+Reason	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (e HelloRequestValidationError) Reason() string { return e.reason }$/;"	f
+RecordValues	plus-go-kit/pkg/geeorm/schema/schema.go	/^func (schema *Schema) RecordValues(dest interface{}) []interface{} {$/;"	f
+Recovery	plus-go-kit/pkg/gee/recovery.go	/^func Recovery() HandlerFunc {$/;"	f
+RefTable	plus-go-kit/pkg/geeorm/session/table.go	/^func (s *Session) RefTable() *schema.Schema {$/;"	f
+Refresh	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^func (d *MultiServersDiscovery) Refresh() error {$/;"	f
+Refresh	plus-go-kit/pkg/geerpc/xclient/discovery_gee.go	/^func (d *GeeRegistryDiscovery) Refresh() error {$/;"	f
+Register	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) Register(rcvr interface{}) error {$/;"	f
+Register	plus-go-kit/pkg/geerpc/server.go	/^func Register(rcvr interface{}) error { return DefaultServer.Register(rcvr) }$/;"	f
+RegisterDialect	plus-go-kit/pkg/geeorm/dialect/dialect.go	/^func RegisterDialect(name string, dialect Dialect) {$/;"	f
+RegisterGreeterHTTPServer	helloworld/api/helloworld/v1/greeter_http.pb.go	/^func RegisterGreeterHTTPServer(s *http.Server, srv GreeterHTTPServer) {$/;"	f
+RegisterGreeterServer	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func RegisterGreeterServer(s grpc.ServiceRegistrar, srv GreeterServer) {$/;"	f
+RegisterPeers	plus-go-kit/pkg/geecache/geecache.go	/^func (g *Group) RegisterPeers(peers PeerPicker) {$/;"	f
+RemoveOldest	plus-go-kit/pkg/geecache/lru/lru.go	/^func (c *Cache) RemoveOldest() {$/;"	f
+Request	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^type Request struct {$/;"	t
+Reset	helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) Reset() {$/;"	f
+Reset	helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) Reset() {$/;"	f
+Reset	helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) Reset() {$/;"	f
+Reset	helloworld/internal/conf/conf.pb.go	/^func (x *Data) Reset() {$/;"	f
+Reset	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) Reset() {$/;"	f
+Reset	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) Reset() {$/;"	f
+Reset	helloworld/internal/conf/conf.pb.go	/^func (x *Server) Reset() {$/;"	f
+Reset	helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) Reset() {$/;"	f
+Reset	helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) Reset() {$/;"	f
+Reset	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Request) Reset()         { *m = Request{} }$/;"	f
+Reset	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Response) Reset()         { *m = Response{} }$/;"	f
+Response	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^type Response struct {$/;"	t
+Rollback	plus-go-kit/pkg/geeorm/session/transaction.go	/^func (s *Session) Rollback() (err error) {$/;"	f
+RoundRobinSelect	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^	RoundRobinSelect                   \/\/ select using Robbin algorithm$/;"	c
+RouterGroup	plus-go-kit/pkg/gee/gee.go	/^	RouterGroup struct {$/;"	t
+Run	plus-go-kit/pkg/gee/gee.go	/^func (engine *Engine) Run(addr string) (err error) {$/;"	f
+SELECT	plus-go-kit/pkg/geeorm/clause/clause.go	/^	SELECT$/;"	c
+SayHello	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func (UnimplementedGreeterServer) SayHello(context.Context, *HelloRequest) (*HelloReply, error) {$/;"	f
+SayHello	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func (c *greeterClient) SayHello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption) (*HelloReply, error) {$/;"	f
+SayHello	helloworld/api/helloworld/v1/greeter_http.pb.go	/^func (c *GreeterHTTPClientImpl) SayHello(ctx context.Context, in *HelloRequest, opts ...http.CallOption) (*HelloReply, error) {$/;"	f
+SayHello	helloworld/internal/service/greeter.go	/^func (s *GreeterService) SayHello(ctx context.Context, in *v1.HelloRequest) (*v1.HelloReply, error) {$/;"	f
+Schema	plus-go-kit/pkg/geeorm/schema/schema.go	/^type Schema struct {$/;"	t
+SelectMode	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^type SelectMode int$/;"	t
+ServeConn	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) ServeConn(conn io.ReadWriteCloser) {$/;"	f
+ServeHTTP	plus-go-kit/pkg/gee/gee.go	/^func (engine *Engine) ServeHTTP(w http.ResponseWriter, req *http.Request) {$/;"	f
+ServeHTTP	plus-go-kit/pkg/geecache/http.go	/^func (p *HTTPPool) ServeHTTP(w http.ResponseWriter, r *http.Request) {$/;"	f
+ServeHTTP	plus-go-kit/pkg/geerpc/debug.go	/^func (server debugHTTP) ServeHTTP(w http.ResponseWriter, req *http.Request) {$/;"	f
+ServeHTTP	plus-go-kit/pkg/geerpc/registry/registry.go	/^func (r *GeeRegistry) ServeHTTP(w http.ResponseWriter, req *http.Request) {$/;"	f
+ServeHTTP	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) ServeHTTP(w http.ResponseWriter, req *http.Request) {$/;"	f
+Server	helloworld/internal/conf/conf.pb.go	/^type Server struct {$/;"	t
+Server	plus-go-kit/pkg/geerpc/server.go	/^type Server struct {$/;"	t
+ServerItem	plus-go-kit/pkg/geerpc/registry/registry.go	/^type ServerItem struct {$/;"	t
+Server_GRPC	helloworld/internal/conf/conf.pb.go	/^type Server_GRPC struct {$/;"	t
+Server_HTTP	helloworld/internal/conf/conf.pb.go	/^type Server_HTTP struct {$/;"	t
+Session	plus-go-kit/pkg/geeorm/session/raw.go	/^type Session struct {$/;"	t
+Set	plus-go-kit/pkg/geecache/http.go	/^func (p *HTTPPool) Set(peers ...string) {$/;"	f
+Set	plus-go-kit/pkg/geeorm/clause/clause.go	/^func (c *Clause) Set(name Type, vars ...interface{}) {$/;"	f
+SetFuncMap	plus-go-kit/pkg/gee/gee.go	/^func (engine *Engine) SetFuncMap(funcMap template.FuncMap) {$/;"	f
+SetHeader	plus-go-kit/pkg/gee/context.go	/^func (c *Context) SetHeader(key string, value string) {$/;"	f
+SetLevel	plus-go-kit/pkg/geeorm/log/log.go	/^func SetLevel(level int) {$/;"	f
+Sleep	plus-go-kit/pkg/geerpc/main/main.go	/^func (f Foo) Sleep(args Args, reply *int) error {$/;"	f
+Static	plus-go-kit/pkg/gee/gee.go	/^func (group *RouterGroup) Static(relativePath string, root string) {$/;"	f
+Status	plus-go-kit/pkg/gee/context.go	/^func (c *Context) Status(code int) {$/;"	f
+String	helloworld/api/helloworld/v1/error_reason.pb.go	/^func (x ErrorReason) String() string {$/;"	f
+String	helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloReply) String() string {$/;"	f
+String	helloworld/api/helloworld/v1/greeter.pb.go	/^func (x *HelloRequest) String() string {$/;"	f
+String	helloworld/internal/conf/conf.pb.go	/^func (x *Bootstrap) String() string {$/;"	f
+String	helloworld/internal/conf/conf.pb.go	/^func (x *Data) String() string {$/;"	f
+String	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Database) String() string {$/;"	f
+String	helloworld/internal/conf/conf.pb.go	/^func (x *Data_Redis) String() string {$/;"	f
+String	helloworld/internal/conf/conf.pb.go	/^func (x *Server) String() string {$/;"	f
+String	helloworld/internal/conf/conf.pb.go	/^func (x *Server_GRPC) String() string {$/;"	f
+String	helloworld/internal/conf/conf.pb.go	/^func (x *Server_HTTP) String() string {$/;"	f
+String	plus-go-kit/pkg/gee/context.go	/^func (c *Context) String(code int, format string, values ...interface{}) {$/;"	f
+String	plus-go-kit/pkg/gee/trie.go	/^func (n *node) String() string {$/;"	f
+String	plus-go-kit/pkg/geecache/byteview.go	/^func (v ByteView) String() string {$/;"	f
+String	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Request) String() string { return proto.CompactTextString(m) }$/;"	f
+String	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Response) String() string { return proto.CompactTextString(m) }$/;"	f
+String	plus-go-kit/pkg/geecache/lru/lru_test.go	/^type String string$/;"	t
+Sum	plus-go-kit/pkg/geerpc/main/main.go	/^func (f Foo) Sum(args Args, reply *int) error {$/;"	f
+Sum	plus-go-kit/pkg/geerpc/service_test.go	/^func (f Foo) Sum(args Args, reply *int) error {$/;"	f
+TableExistSQL	plus-go-kit/pkg/geeorm/dialect/sqlite3.go	/^func (s *sqlite3) TableExistSQL(tableName string) (string, []interface{}) {$/;"	f
+TableName	plus-go-kit/pkg/geeorm/schema/schema_test.go	/^func (u *UserTest) TableName() string {$/;"	f
+TestAdd	plus-go-kit/pkg/geecache/lru/lru_test.go	/^func TestAdd(t *testing.T) {$/;"	f
+TestClause_Build	plus-go-kit/pkg/geeorm/clause/clause_test.go	/^func TestClause_Build(t *testing.T) {$/;"	f
+TestClause_Set	plus-go-kit/pkg/geeorm/clause/clause_test.go	/^func TestClause_Set(t *testing.T) {$/;"	f
+TestClient_Call	plus-go-kit/pkg/geerpc/client_test.go	/^func TestClient_Call(t *testing.T) {$/;"	f
+TestClient_dialTimeout	plus-go-kit/pkg/geerpc/client_test.go	/^func TestClient_dialTimeout(t *testing.T) {$/;"	f
+TestDB	plus-go-kit/pkg/geeorm/session/raw_test.go	/^	TestDB      *sql.DB$/;"	v
+TestDataTypeOf	plus-go-kit/pkg/geeorm/dialect/sqlite3_test.go	/^func TestDataTypeOf(t *testing.T) {$/;"	f
+TestDial	plus-go-kit/pkg/geeorm/schema/schema_test.go	/^var TestDial, _ = dialect.GetDialect("sqlite3")$/;"	v
+TestDial	plus-go-kit/pkg/geeorm/session/raw_test.go	/^	TestDial, _ = dialect.GetDialect("sqlite3")$/;"	v
+TestDo	plus-go-kit/pkg/geecache/singleflight/singleflight_test.go	/^func TestDo(t *testing.T) {$/;"	f
+TestEngine_Migrate	plus-go-kit/pkg/geeorm/geeorm_test.go	/^func TestEngine_Migrate(t *testing.T) {$/;"	f
+TestEngine_Transaction	plus-go-kit/pkg/geeorm/geeorm_test.go	/^func TestEngine_Transaction(t *testing.T) {$/;"	f
+TestGet	plus-go-kit/pkg/geecache/geecache_test.go	/^func TestGet(t *testing.T) {$/;"	f
+TestGet	plus-go-kit/pkg/geecache/lru/lru_test.go	/^func TestGet(t *testing.T) {$/;"	f
+TestGetGroup	plus-go-kit/pkg/geecache/geecache_test.go	/^func TestGetGroup(t *testing.T) {$/;"	f
+TestGetRoute	plus-go-kit/pkg/gee/router_test.go	/^func TestGetRoute(t *testing.T) {$/;"	f
+TestGetRoute2	plus-go-kit/pkg/gee/router_test.go	/^func TestGetRoute2(t *testing.T) {$/;"	f
+TestGetRoutes	plus-go-kit/pkg/gee/router_test.go	/^func TestGetRoutes(t *testing.T) {$/;"	f
+TestGetter	plus-go-kit/pkg/geecache/geecache_test.go	/^func TestGetter(t *testing.T) {$/;"	f
+TestHashing	plus-go-kit/pkg/geecache/consistenthash/consistenthash_test.go	/^func TestHashing(t *testing.T) {$/;"	f
+TestMain	plus-go-kit/pkg/geeorm/session/raw_test.go	/^func TestMain(m *testing.M) {$/;"	f
+TestMethodType_Call	plus-go-kit/pkg/geerpc/service_test.go	/^func TestMethodType_Call(t *testing.T) {$/;"	f
+TestNestedGroup	plus-go-kit/pkg/gee/gee_test.go	/^func TestNestedGroup(t *testing.T) {$/;"	f
+TestNewEngine	plus-go-kit/pkg/geeorm/geeorm_test.go	/^func TestNewEngine(t *testing.T) {$/;"	f
+TestNewService	plus-go-kit/pkg/geerpc/service_test.go	/^func TestNewService(t *testing.T) {$/;"	f
+TestOnEvicted	plus-go-kit/pkg/geecache/lru/lru_test.go	/^func TestOnEvicted(t *testing.T) {$/;"	f
+TestParse	plus-go-kit/pkg/geeorm/schema/schema_test.go	/^func TestParse(t *testing.T) {$/;"	f
+TestParsePattern	plus-go-kit/pkg/gee/router_test.go	/^func TestParsePattern(t *testing.T) {$/;"	f
+TestRemoveoldest	plus-go-kit/pkg/geecache/lru/lru_test.go	/^func TestRemoveoldest(t *testing.T) {$/;"	f
+TestSchema_RecordValues	plus-go-kit/pkg/geeorm/schema/schema_test.go	/^func TestSchema_RecordValues(t *testing.T) {$/;"	f
+TestSchema_TableName	plus-go-kit/pkg/geeorm/schema/schema_test.go	/^func TestSchema_TableName(t *testing.T) {$/;"	f
+TestSession_CallMethod	plus-go-kit/pkg/geeorm/session/hooks_test.go	/^func TestSession_CallMethod(t *testing.T) {$/;"	f
+TestSession_CreateTable	plus-go-kit/pkg/geeorm/session/table_test.go	/^func TestSession_CreateTable(t *testing.T) {$/;"	f
+TestSession_DeleteAndCount	plus-go-kit/pkg/geeorm/session/record_test.go	/^func TestSession_DeleteAndCount(t *testing.T) {$/;"	f
+TestSession_Exec	plus-go-kit/pkg/geeorm/session/raw_test.go	/^func TestSession_Exec(t *testing.T) {$/;"	f
+TestSession_Find	plus-go-kit/pkg/geeorm/session/record_test.go	/^func TestSession_Find(t *testing.T) {$/;"	f
+TestSession_First	plus-go-kit/pkg/geeorm/session/record_test.go	/^func TestSession_First(t *testing.T) {$/;"	f
+TestSession_Insert	plus-go-kit/pkg/geeorm/session/record_test.go	/^func TestSession_Insert(t *testing.T) {$/;"	f
+TestSession_Limit	plus-go-kit/pkg/geeorm/session/record_test.go	/^func TestSession_Limit(t *testing.T) {$/;"	f
+TestSession_Model	plus-go-kit/pkg/geeorm/session/table_test.go	/^func TestSession_Model(t *testing.T) {$/;"	f
+TestSession_OrderBy	plus-go-kit/pkg/geeorm/session/record_test.go	/^func TestSession_OrderBy(t *testing.T) {$/;"	f
+TestSession_QueryRows	plus-go-kit/pkg/geeorm/session/raw_test.go	/^func TestSession_QueryRows(t *testing.T) {$/;"	f
+TestSession_Update	plus-go-kit/pkg/geeorm/session/record_test.go	/^func TestSession_Update(t *testing.T) {$/;"	f
+TestSession_Where	plus-go-kit/pkg/geeorm/session/record_test.go	/^func TestSession_Where(t *testing.T) {$/;"	f
+TestXDial	plus-go-kit/pkg/geerpc/client_test.go	/^func TestXDial(t *testing.T) {$/;"	f
+Timeout	plus-go-kit/pkg/geerpc/client_test.go	/^func (b Bar) Timeout(argv int, reply *int) error {$/;"	f
+Transaction	plus-go-kit/pkg/geeorm/geeorm.go	/^func (engine *Engine) Transaction(f TxFunc) (result interface{}, err error) {$/;"	f
+TxFunc	plus-go-kit/pkg/geeorm/geeorm.go	/^type TxFunc func(*session.Session) (interface{}, error)$/;"	t
+Type	helloworld/api/helloworld/v1/error_reason.pb.go	/^func (ErrorReason) Type() protoreflect.EnumType {$/;"	f
+Type	plus-go-kit/pkg/geeorm/clause/clause.go	/^type Type int$/;"	t
+Type	plus-go-kit/pkg/geerpc/codec/codec.go	/^type Type string$/;"	t
+UPDATE	plus-go-kit/pkg/geeorm/clause/clause.go	/^	UPDATE$/;"	c
+UnimplementedGreeterServer	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type UnimplementedGreeterServer struct {$/;"	t
+UnsafeGreeterServer	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type UnsafeGreeterServer interface {$/;"	t
+Update	helloworld/internal/biz/greeter.go	/^func (uc *GreeterUsecase) Update(ctx context.Context, g *Greeter) error {$/;"	f
+Update	plus-go-kit/pkg/geeorm/session/record.go	/^func (s *Session) Update(kv ...interface{}) (int64, error) {$/;"	f
+Update	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^func (d *MultiServersDiscovery) Update(servers []string) error {$/;"	f
+Update	plus-go-kit/pkg/geerpc/xclient/discovery_gee.go	/^func (d *GeeRegistryDiscovery) Update(servers []string) error {$/;"	f
+UpdateGreeter	helloworld/internal/data/greeter.go	/^func (r *greeterRepo) UpdateGreeter(ctx context.Context, g *biz.Greeter) error {$/;"	f
+Use	plus-go-kit/pkg/gee/gee.go	/^func (group *RouterGroup) Use(middlewares ...HandlerFunc) {$/;"	f
+User	plus-go-kit/pkg/geeorm/geeorm_test.go	/^type User struct {$/;"	t
+User	plus-go-kit/pkg/geeorm/schema/schema_test.go	/^type User struct {$/;"	t
+User	plus-go-kit/pkg/geeorm/session/table_test.go	/^type User struct {$/;"	t
+UserTest	plus-go-kit/pkg/geeorm/schema/schema_test.go	/^type UserTest struct {$/;"	t
+VALUES	plus-go-kit/pkg/geeorm/clause/clause.go	/^	VALUES$/;"	c
+VERSION	helloworld/Makefile	/^VERSION=$(shell git describe --tags --always)$/;"	m
+Validate	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (m *HelloReply) Validate() error {$/;"	f
+Validate	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^func (m *HelloRequest) Validate() error {$/;"	f
+Value	plus-go-kit/pkg/geecache/lru/lru.go	/^type Value interface {$/;"	t
+Version	helloworld/cmd/helloworld/main.go	/^	Version string$/;"	v
+WHERE	plus-go-kit/pkg/geeorm/clause/clause.go	/^	WHERE$/;"	c
+Where	plus-go-kit/pkg/geeorm/session/record.go	/^func (s *Session) Where(desc string, args ...interface{}) *Session {$/;"	f
+Write	plus-go-kit/pkg/geerpc/codec/gob.go	/^func (c *GobCodec) Write(h *Header, body interface{}) (err error) {$/;"	f
+XClient	plus-go-kit/pkg/geerpc/xclient/xclient.go	/^type XClient struct {$/;"	t
+XDial	plus-go-kit/pkg/geerpc/client.go	/^func XDial(rpcAddr string, opts ...*Option) (*Client, error) {$/;"	f
+XXX_DiscardUnknown	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Request) XXX_DiscardUnknown() {$/;"	f
+XXX_DiscardUnknown	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Response) XXX_DiscardUnknown() {$/;"	f
+XXX_Marshal	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Request) XXX_Marshal(b []byte, deterministic bool) ([]byte, error) {$/;"	f
+XXX_Marshal	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Response) XXX_Marshal(b []byte, deterministic bool) ([]byte, error) {$/;"	f
+XXX_Merge	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Request) XXX_Merge(src proto.Message) {$/;"	f
+XXX_Merge	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Response) XXX_Merge(src proto.Message) {$/;"	f
+XXX_Size	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Request) XXX_Size() int {$/;"	f
+XXX_Size	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Response) XXX_Size() int {$/;"	f
+XXX_Unmarshal	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Request) XXX_Unmarshal(b []byte) error {$/;"	f
+XXX_Unmarshal	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func (m *Response) XXX_Unmarshal(b []byte) error {$/;"	f
+_	helloworld/api/helloworld/v1/error_reason.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c
+_	helloworld/api/helloworld/v1/error_reason.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*mail.Address)(nil)$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*regexp.Regexp)(nil)$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*strings.Reader)(nil)$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = (*url.URL)(nil)$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = anypb.Any{}$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = bytes.MinRead$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = errors.New("")$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = fmt.Print$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = net.IPv4len$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = time.Duration(0)$/;"	v
+_	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^	_ = utf8.UTFMax$/;"	v
+_	helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^const _ = errors.SupportPackageIsVersion1$/;"	c
+_	helloworld/api/helloworld/v1/greeter.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c
+_	helloworld/api/helloworld/v1/greeter.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*mail.Address)(nil)$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*regexp.Regexp)(nil)$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*strings.Reader)(nil)$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = (*url.URL)(nil)$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = anypb.Any{}$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = bytes.MinRead$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = errors.New("")$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = fmt.Print$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = net.IPv4len$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = time.Duration(0)$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^	_ = utf8.UTFMax$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^var _ error = HelloReplyValidationError{}$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^var _ error = HelloRequestValidationError{}$/;"	v
+_	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^var _ interface {$/;"	v
+_	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^const _ = grpc.SupportPackageIsVersion7$/;"	c
+_	helloworld/api/helloworld/v1/greeter_http.pb.go	/^const _ = http.SupportPackageIsVersion1$/;"	c
+_	helloworld/api/helloworld/v1/greeter_http.pb.go	/^var _ = binding.EncodeURL$/;"	v
+_	helloworld/api/helloworld/v1/greeter_http.pb.go	/^var _ = new(context.Context)$/;"	v
+_	helloworld/cmd/helloworld/main.go	/^	id, _ = os.Hostname()$/;"	v
+_	helloworld/internal/conf/conf.pb.go	/^	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)$/;"	c
+_	helloworld/internal/conf/conf.pb.go	/^	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)$/;"	c
+_	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^const _ = proto.ProtoPackageIsVersion3 \/\/ please upgrade the proto package$/;"	c
+_	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^var _ = fmt.Errorf$/;"	v
+_	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^var _ = math.Inf$/;"	v
+_	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^var _ = proto.Marshal$/;"	v
+_	plus-go-kit/pkg/geecache/http.go	/^var _ PeerGetter = (*httpGetter)(nil)$/;"	v
+_	plus-go-kit/pkg/geecache/http.go	/^var _ PeerPicker = (*HTTPPool)(nil)$/;"	v
+_	plus-go-kit/pkg/geeorm/dialect/sqlite3.go	/^var _ Dialect = (*sqlite3)(nil)$/;"	v
+_	plus-go-kit/pkg/geeorm/schema/schema_test.go	/^var TestDial, _ = dialect.GetDialect("sqlite3")$/;"	v
+_	plus-go-kit/pkg/geeorm/session/raw.go	/^var _ CommonDB = (*sql.DB)(nil)$/;"	v
+_	plus-go-kit/pkg/geeorm/session/raw.go	/^var _ CommonDB = (*sql.Tx)(nil)$/;"	v
+_	plus-go-kit/pkg/geeorm/session/raw_test.go	/^	TestDial, _ = dialect.GetDialect("sqlite3")$/;"	v
+_	plus-go-kit/pkg/geerpc/client.go	/^var _ io.Closer = (*Client)(nil)$/;"	v
+_	plus-go-kit/pkg/geerpc/codec/gob.go	/^var _ Codec = (*GobCodec)(nil)$/;"	v
+_	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^var _ Discovery = (*MultiServersDiscovery)(nil)$/;"	v
+_	plus-go-kit/pkg/geerpc/xclient/xclient.go	/^var _ io.Closer = (*XClient)(nil)$/;"	v
+_Greeter_SayHello0_HTTP_Handler	helloworld/api/helloworld/v1/greeter_http.pb.go	/^func _Greeter_SayHello0_HTTP_Handler(srv GreeterHTTPServer) func(ctx http.Context) error {$/;"	f
+_Greeter_SayHello_Handler	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func _Greeter_SayHello_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {$/;"	f
+_assert	plus-go-kit/pkg/geerpc/service_test.go	/^func _assert(condition bool, msg string, v ...interface{}) {$/;"	f
+_count	plus-go-kit/pkg/geeorm/clause/generator.go	/^func _count(values ...interface{}) (string, []interface{}) {$/;"	f
+_delete	plus-go-kit/pkg/geeorm/clause/generator.go	/^func _delete(values ...interface{}) (string, []interface{}) {$/;"	f
+_insert	plus-go-kit/pkg/geeorm/clause/generator.go	/^func _insert(values ...interface{}) (string, []interface{}) {$/;"	f
+_limit	plus-go-kit/pkg/geeorm/clause/generator.go	/^func _limit(values ...interface{}) (string, []interface{}) {$/;"	f
+_orderBy	plus-go-kit/pkg/geeorm/clause/generator.go	/^func _orderBy(values ...interface{}) (string, []interface{}) {$/;"	f
+_select	plus-go-kit/pkg/geeorm/clause/generator.go	/^func _select(values ...interface{}) (string, []interface{}) {$/;"	f
+_update	plus-go-kit/pkg/geeorm/clause/generator.go	/^func _update(values ...interface{}) (string, []interface{}) {$/;"	f
+_values	plus-go-kit/pkg/geeorm/clause/generator.go	/^func _values(values ...interface{}) (string, []interface{}) {$/;"	f
+_where	plus-go-kit/pkg/geeorm/clause/generator.go	/^func _where(values ...interface{}) (string, []interface{}) {$/;"	f
+add	plus-go-kit/pkg/geecache/cache.go	/^func (c *cache) add(key string, value ByteView) {$/;"	f
+addRoute	plus-go-kit/pkg/gee/gee.go	/^func (group *RouterGroup) addRoute(method string, comp string, handler HandlerFunc) {$/;"	f
+addRoute	plus-go-kit/pkg/gee/router.go	/^func (r *router) addRoute(method string, pattern string, handler HandlerFunc) {$/;"	f
+aliveServers	plus-go-kit/pkg/geerpc/registry/registry.go	/^func (r *GeeRegistry) aliveServers() []string {$/;"	f
+biz	helloworld/internal/biz/biz.go	/^package biz$/;"	p
+biz	helloworld/internal/biz/greeter.go	/^package biz$/;"	p
+broadcast	plus-go-kit/pkg/geerpc/main/main.go	/^func broadcast(registry string) {$/;"	f
+cache	plus-go-kit/pkg/geecache/cache.go	/^type cache struct {$/;"	t
+call	plus-go-kit/pkg/geecache/singleflight/singleflight.go	/^type call struct {$/;"	t
+call	plus-go-kit/pkg/geerpc/main/main.go	/^func call(registry string) {$/;"	f
+call	plus-go-kit/pkg/geerpc/service.go	/^func (s *service) call(m *methodType, argv, replyv reflect.Value) error {$/;"	f
+call	plus-go-kit/pkg/geerpc/xclient/xclient.go	/^func (xc *XClient) call(rpcAddr string, ctx context.Context, serviceMethod string, args, reply interface{}) error {$/;"	f
+clause	plus-go-kit/pkg/geeorm/clause/clause.go	/^package clause$/;"	p
+clause	plus-go-kit/pkg/geeorm/clause/clause_test.go	/^package clause$/;"	p
+clause	plus-go-kit/pkg/geeorm/clause/generator.go	/^package clause$/;"	p
+clientResult	plus-go-kit/pkg/geerpc/client.go	/^type clientResult struct {$/;"	t
+cloneBytes	plus-go-kit/pkg/geecache/byteview.go	/^func cloneBytes(b []byte) []byte {$/;"	f
+codec	plus-go-kit/pkg/geerpc/codec/codec.go	/^package codec$/;"	p
+codec	plus-go-kit/pkg/geerpc/codec/gob.go	/^package codec$/;"	p
+conf	helloworld/internal/conf/conf.pb.go	/^package conf$/;"	p
+connected	plus-go-kit/pkg/geerpc/server.go	/^	connected        = "200 Connected to Gee RPC"$/;"	c
+consistenthash	plus-go-kit/pkg/geecache/consistenthash/consistenthash.go	/^package consistenthash$/;"	p
+consistenthash	plus-go-kit/pkg/geecache/consistenthash/consistenthash_test.go	/^package consistenthash$/;"	p
+createStaticHandler	plus-go-kit/pkg/gee/gee.go	/^func (group *RouterGroup) createStaticHandler(relativePath string, fs http.FileSystem) HandlerFunc {$/;"	f
+data	helloworld/internal/data/data.go	/^package data$/;"	p
+data	helloworld/internal/data/greeter.go	/^package data$/;"	p
+db	plus-go-kit/pkg/geecache/geecache_test.go	/^var db = map[string]string{$/;"	v
+debug	plus-go-kit/pkg/geerpc/debug.go	/^var debug = template.Must(template.New("RPC debug").Parse(debugText))$/;"	v
+debugHTTP	plus-go-kit/pkg/geerpc/debug.go	/^type debugHTTP struct {$/;"	t
+debugService	plus-go-kit/pkg/geerpc/debug.go	/^type debugService struct {$/;"	t
+debugText	plus-go-kit/pkg/geerpc/debug.go	/^const debugText = `<html>$/;"	c
+defaultBasePath	plus-go-kit/pkg/geecache/http.go	/^	defaultBasePath = "\/_geecache\/"$/;"	c
+defaultDebugPath	plus-go-kit/pkg/geerpc/server.go	/^	defaultDebugPath = "\/debug\/geerpc"$/;"	c
+defaultPath	plus-go-kit/pkg/geerpc/registry/registry.go	/^	defaultPath    = "\/_geerpc_\/registry"$/;"	c
+defaultRPCPath	plus-go-kit/pkg/geerpc/server.go	/^	defaultRPCPath   = "\/_geeprc_"$/;"	c
+defaultReplicas	plus-go-kit/pkg/geecache/http.go	/^	defaultReplicas = 50$/;"	c
+defaultTimeout	plus-go-kit/pkg/geerpc/registry/registry.go	/^	defaultTimeout = time.Minute * 5$/;"	c
+defaultUpdateTimeout	plus-go-kit/pkg/geerpc/xclient/discovery_gee.go	/^const defaultUpdateTimeout = time.Second * 10$/;"	c
+dial	plus-go-kit/pkg/geerpc/xclient/xclient.go	/^func (xc *XClient) dial(rpcAddr string) (*Client, error) {$/;"	f
+dialTimeout	plus-go-kit/pkg/geerpc/client.go	/^func dialTimeout(f newClientFunc, network, address string, opts ...*Option) (client *Client, err error) {$/;"	f
+dialect	plus-go-kit/pkg/geeorm/dialect/dialect.go	/^package dialect$/;"	p
+dialect	plus-go-kit/pkg/geeorm/dialect/sqlite3.go	/^package dialect$/;"	p
+dialect	plus-go-kit/pkg/geeorm/dialect/sqlite3_test.go	/^package dialect$/;"	p
+dialectsMap	plus-go-kit/pkg/geeorm/dialect/dialect.go	/^var dialectsMap = map[string]Dialect{}$/;"	v
+difference	plus-go-kit/pkg/geeorm/geeorm.go	/^func difference(a []string, b []string) (diff []string) {$/;"	f
+done	plus-go-kit/pkg/geerpc/client.go	/^func (call *Call) done() {$/;"	f
+entry	plus-go-kit/pkg/geecache/lru/lru.go	/^type entry struct {$/;"	t
+errorLog	plus-go-kit/pkg/geeorm/log/log.go	/^	errorLog = log.New(os.Stdout, "\\033[31m[error]\\033[0m ", log.LstdFlags|log.Lshortfile)$/;"	v
+fileDescriptor_889d0a4ad37a0d42	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^var fileDescriptor_889d0a4ad37a0d42 = []byte{$/;"	v
+file_api_helloworld_v1_error_reason_proto_depIdxs	helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_depIdxs = []int32{$/;"	v
+file_api_helloworld_v1_error_reason_proto_enumTypes	helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_enumTypes = make([]protoimpl.EnumInfo, 1)$/;"	v
+file_api_helloworld_v1_error_reason_proto_goTypes	helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_goTypes = []interface{}{$/;"	v
+file_api_helloworld_v1_error_reason_proto_init	helloworld/api/helloworld/v1/error_reason.pb.go	/^func file_api_helloworld_v1_error_reason_proto_init() {$/;"	f
+file_api_helloworld_v1_error_reason_proto_rawDesc	helloworld/api/helloworld/v1/error_reason.pb.go	/^var file_api_helloworld_v1_error_reason_proto_rawDesc = []byte{$/;"	v
+file_api_helloworld_v1_error_reason_proto_rawDescData	helloworld/api/helloworld/v1/error_reason.pb.go	/^	file_api_helloworld_v1_error_reason_proto_rawDescData = file_api_helloworld_v1_error_reason_proto_rawDesc$/;"	v
+file_api_helloworld_v1_error_reason_proto_rawDescGZIP	helloworld/api/helloworld/v1/error_reason.pb.go	/^func file_api_helloworld_v1_error_reason_proto_rawDescGZIP() []byte {$/;"	f
+file_api_helloworld_v1_error_reason_proto_rawDescOnce	helloworld/api/helloworld/v1/error_reason.pb.go	/^	file_api_helloworld_v1_error_reason_proto_rawDescOnce sync.Once$/;"	v
+file_api_helloworld_v1_greeter_proto_depIdxs	helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_depIdxs = []int32{$/;"	v
+file_api_helloworld_v1_greeter_proto_goTypes	helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_goTypes = []interface{}{$/;"	v
+file_api_helloworld_v1_greeter_proto_init	helloworld/api/helloworld/v1/greeter.pb.go	/^func file_api_helloworld_v1_greeter_proto_init() {$/;"	f
+file_api_helloworld_v1_greeter_proto_msgTypes	helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_msgTypes = make([]protoimpl.MessageInfo, 2)$/;"	v
+file_api_helloworld_v1_greeter_proto_rawDesc	helloworld/api/helloworld/v1/greeter.pb.go	/^var file_api_helloworld_v1_greeter_proto_rawDesc = []byte{$/;"	v
+file_api_helloworld_v1_greeter_proto_rawDescData	helloworld/api/helloworld/v1/greeter.pb.go	/^	file_api_helloworld_v1_greeter_proto_rawDescData = file_api_helloworld_v1_greeter_proto_rawDesc$/;"	v
+file_api_helloworld_v1_greeter_proto_rawDescGZIP	helloworld/api/helloworld/v1/greeter.pb.go	/^func file_api_helloworld_v1_greeter_proto_rawDescGZIP() []byte {$/;"	f
+file_api_helloworld_v1_greeter_proto_rawDescOnce	helloworld/api/helloworld/v1/greeter.pb.go	/^	file_api_helloworld_v1_greeter_proto_rawDescOnce sync.Once$/;"	v
+file_internal_conf_conf_proto_depIdxs	helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_depIdxs = []int32{$/;"	v
+file_internal_conf_conf_proto_goTypes	helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_goTypes = []interface{}{$/;"	v
+file_internal_conf_conf_proto_init	helloworld/internal/conf/conf.pb.go	/^func file_internal_conf_conf_proto_init() {$/;"	f
+file_internal_conf_conf_proto_msgTypes	helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_msgTypes = make([]protoimpl.MessageInfo, 7)$/;"	v
+file_internal_conf_conf_proto_rawDesc	helloworld/internal/conf/conf.pb.go	/^var file_internal_conf_conf_proto_rawDesc = []byte{$/;"	v
+file_internal_conf_conf_proto_rawDescData	helloworld/internal/conf/conf.pb.go	/^	file_internal_conf_conf_proto_rawDescData = file_internal_conf_conf_proto_rawDesc$/;"	v
+file_internal_conf_conf_proto_rawDescGZIP	helloworld/internal/conf/conf.pb.go	/^func file_internal_conf_conf_proto_rawDescGZIP() []byte {$/;"	f
+file_internal_conf_conf_proto_rawDescOnce	helloworld/internal/conf/conf.pb.go	/^	file_internal_conf_conf_proto_rawDescOnce sync.Once$/;"	v
+findService	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) findService(serviceMethod string) (svc *service, mtype *methodType, err error) {$/;"	f
+flagconf	helloworld/cmd/helloworld/main.go	/^	flagconf string$/;"	v
+foo	plus-go-kit/pkg/geerpc/main/main.go	/^func foo(xc *xclient.XClient, ctx context.Context, typ, serviceMethod string, args *Args) {$/;"	f
+gee	plus-go-kit/pkg/gee/context.go	/^package gee$/;"	p
+gee	plus-go-kit/pkg/gee/gee.go	/^package gee$/;"	p
+gee	plus-go-kit/pkg/gee/gee_test.go	/^package gee$/;"	p
+gee	plus-go-kit/pkg/gee/logger.go	/^package gee$/;"	p
+gee	plus-go-kit/pkg/gee/recovery.go	/^package gee$/;"	p
+gee	plus-go-kit/pkg/gee/router.go	/^package gee$/;"	p
+gee	plus-go-kit/pkg/gee/router_test.go	/^package gee$/;"	p
+gee	plus-go-kit/pkg/gee/trie.go	/^package gee$/;"	p
+geecache	plus-go-kit/pkg/geecache/byteview.go	/^package geecache$/;"	p
+geecache	plus-go-kit/pkg/geecache/cache.go	/^package geecache$/;"	p
+geecache	plus-go-kit/pkg/geecache/geecache.go	/^package geecache$/;"	p
+geecache	plus-go-kit/pkg/geecache/geecache_test.go	/^package geecache$/;"	p
+geecache	plus-go-kit/pkg/geecache/http.go	/^package geecache$/;"	p
+geecache	plus-go-kit/pkg/geecache/peers.go	/^package geecache$/;"	p
+geecachepb	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^package geecachepb$/;"	p
+geeorm	plus-go-kit/pkg/geeorm/geeorm.go	/^package geeorm$/;"	p
+geeorm	plus-go-kit/pkg/geeorm/geeorm_test.go	/^package geeorm$/;"	p
+geerpc	plus-go-kit/pkg/geerpc/client.go	/^package geerpc$/;"	p
+geerpc	plus-go-kit/pkg/geerpc/client_test.go	/^package geerpc$/;"	p
+geerpc	plus-go-kit/pkg/geerpc/debug.go	/^package geerpc$/;"	p
+geerpc	plus-go-kit/pkg/geerpc/server.go	/^package geerpc$/;"	p
+geerpc	plus-go-kit/pkg/geerpc/service.go	/^package geerpc$/;"	p
+geerpc	plus-go-kit/pkg/geerpc/service_test.go	/^package geerpc$/;"	p
+genBindVars	plus-go-kit/pkg/geeorm/clause/generator.go	/^func genBindVars(num int) string {$/;"	f
+generate	helloworld/generate.go	/^package generate$/;"	p
+generator	plus-go-kit/pkg/geeorm/clause/generator.go	/^type generator func(values ...interface{}) (string, []interface{})$/;"	t
+generators	plus-go-kit/pkg/geeorm/clause/generator.go	/^var generators map[Type]generator$/;"	v
+get	plus-go-kit/pkg/geecache/cache.go	/^func (c *cache) get(key string) (value ByteView, ok bool) {$/;"	f
+getFromPeer	plus-go-kit/pkg/geecache/geecache.go	/^func (g *Group) getFromPeer(peer PeerGetter, key string) (ByteView, error) {$/;"	f
+getLocally	plus-go-kit/pkg/geecache/geecache.go	/^func (g *Group) getLocally(key string) (ByteView, error) {$/;"	f
+getRoute	plus-go-kit/pkg/gee/router.go	/^func (r *router) getRoute(method string, path string) (*node, map[string]string) {$/;"	f
+getRoutes	plus-go-kit/pkg/gee/router.go	/^func (r *router) getRoutes(method string) []*node {$/;"	f
+greeterClient	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^type greeterClient struct {$/;"	t
+greeterRepo	helloworld/internal/data/greeter.go	/^type greeterRepo struct {$/;"	t
+groups	plus-go-kit/pkg/geecache/geecache.go	/^	groups = make(map[string]*Group)$/;"	v
+handle	plus-go-kit/pkg/gee/router.go	/^func (r *router) handle(c *Context) {$/;"	f
+handleRequest	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) handleRequest(cc codec.Codec, req *request, sending *sync.Mutex, wg *sync.WaitGroup, timeout time.Duration) {$/;"	f
+httpGetter	plus-go-kit/pkg/geecache/http.go	/^type httpGetter struct {$/;"	t
+id	helloworld/cmd/helloworld/main.go	/^	id, _ = os.Hostname()$/;"	v
+infoLog	plus-go-kit/pkg/geeorm/log/log.go	/^	infoLog  = log.New(os.Stdout, "\\033[34m[info ]\\033[0m ", log.LstdFlags|log.Lshortfile)$/;"	v
+init	helloworld/api/helloworld/v1/error_reason.pb.go	/^func init() { file_api_helloworld_v1_error_reason_proto_init() }$/;"	f
+init	helloworld/api/helloworld/v1/greeter.pb.go	/^func init() { file_api_helloworld_v1_greeter_proto_init() }$/;"	f
+init	helloworld/cmd/helloworld/main.go	/^func init() {$/;"	f
+init	helloworld/internal/conf/conf.pb.go	/^func init() { file_internal_conf_conf_proto_init() }$/;"	f
+init	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func init() { proto.RegisterFile("geecachepb.proto", fileDescriptor_889d0a4ad37a0d42) }$/;"	f
+init	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^func init() {$/;"	f
+init	plus-go-kit/pkg/geeorm/clause/generator.go	/^func init() {$/;"	f
+init	plus-go-kit/pkg/geeorm/dialect/sqlite3.go	/^func init() {$/;"	f
+init	plus-go-kit/pkg/geerpc/codec/codec.go	/^func init() {$/;"	f
+initApp	helloworld/cmd/helloworld/wire.go	/^func initApp(*conf.Server, *conf.Data, log.Logger) (*kratos.App, func(), error) {$/;"	f
+initApp	helloworld/cmd/helloworld/wire_gen.go	/^func initApp(confServer *conf.Server, confData *conf.Data, logger log.Logger) (*kratos.App, func(), error) {$/;"	f
+insert	plus-go-kit/pkg/gee/trie.go	/^func (n *node) insert(pattern string, parts []string, height int) {$/;"	f
+invalidRequest	plus-go-kit/pkg/geerpc/server.go	/^var invalidRequest = struct{}{}$/;"	v
+isExportedOrBuiltinType	plus-go-kit/pkg/geerpc/service.go	/^func isExportedOrBuiltinType(t reflect.Type) bool {$/;"	f
+load	plus-go-kit/pkg/geecache/geecache.go	/^func (g *Group) load(key string) (value ByteView, err error) {$/;"	f
+log	plus-go-kit/pkg/geeorm/log/log.go	/^package log$/;"	p
+log	plus-go-kit/pkg/geeorm/log/log_test.go	/^package log$/;"	p
+loggers	plus-go-kit/pkg/geeorm/log/log.go	/^	loggers  = []*log.Logger{errorLog, infoLog}$/;"	v
+lru	plus-go-kit/pkg/geecache/lru/lru.go	/^package lru$/;"	p
+lru	plus-go-kit/pkg/geecache/lru/lru_test.go	/^package lru$/;"	p
+main	helloworld/cmd/helloworld/main.go	/^func main() {$/;"	f
+main	helloworld/cmd/helloworld/main.go	/^package main$/;"	p
+main	helloworld/cmd/helloworld/wire.go	/^package main$/;"	p
+main	helloworld/cmd/helloworld/wire_gen.go	/^package main$/;"	p
+main	plus-go-kit/pkg/geerpc/main/main.go	/^func main() {$/;"	f
+main	plus-go-kit/pkg/geerpc/main/main.go	/^package main$/;"	p
+matchChild	plus-go-kit/pkg/gee/trie.go	/^func (n *node) matchChild(part string) *node {$/;"	f
+matchChildren	plus-go-kit/pkg/gee/trie.go	/^func (n *node) matchChildren(part string) []*node {$/;"	f
+methodType	plus-go-kit/pkg/geerpc/service.go	/^type methodType struct {$/;"	t
+mu	plus-go-kit/pkg/geecache/geecache.go	/^	mu     sync.RWMutex$/;"	v
+mu	plus-go-kit/pkg/geeorm/log/log.go	/^	mu       sync.Mutex$/;"	v
+mustEmbedUnimplementedGreeterServer	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^func (UnimplementedGreeterServer) mustEmbedUnimplementedGreeterServer() {}$/;"	f
+newApp	helloworld/cmd/helloworld/main.go	/^func newApp(logger log.Logger, hs *http.Server, gs *grpc.Server) *kratos.App {$/;"	f
+newArgv	plus-go-kit/pkg/geerpc/service.go	/^func (m *methodType) newArgv() reflect.Value {$/;"	f
+newClientCodec	plus-go-kit/pkg/geerpc/client.go	/^func newClientCodec(cc codec.Codec, opt *Option) *Client {$/;"	f
+newClientFunc	plus-go-kit/pkg/geerpc/client.go	/^type newClientFunc func(conn net.Conn, opt *Option) (client *Client, err error)$/;"	t
+newContext	plus-go-kit/pkg/gee/context.go	/^func newContext(w http.ResponseWriter, req *http.Request) *Context {$/;"	f
+newReplyv	plus-go-kit/pkg/geerpc/service.go	/^func (m *methodType) newReplyv() reflect.Value {$/;"	f
+newRouter	plus-go-kit/pkg/gee/router.go	/^func newRouter() *router {$/;"	f
+newService	plus-go-kit/pkg/geerpc/service.go	/^func newService(rcvr interface{}) *service {$/;"	f
+newTestRouter	plus-go-kit/pkg/gee/router_test.go	/^func newTestRouter() *router {$/;"	f
+node	plus-go-kit/pkg/gee/trie.go	/^type node struct {$/;"	t
+parseOptions	plus-go-kit/pkg/geerpc/client.go	/^func parseOptions(opts ...*Option) (*Option, error) {$/;"	f
+parsePattern	plus-go-kit/pkg/gee/router.go	/^func parsePattern(pattern string) []string {$/;"	f
+populateCache	plus-go-kit/pkg/geecache/geecache.go	/^func (g *Group) populateCache(key string, value ByteView) {$/;"	f
+putServer	plus-go-kit/pkg/geerpc/registry/registry.go	/^func (r *GeeRegistry) putServer(addr string) {$/;"	f
+readRequest	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) readRequest(cc codec.Codec) (*request, error) {$/;"	f
+readRequestHeader	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) readRequestHeader(cc codec.Codec) (*codec.Header, error) {$/;"	f
+receive	plus-go-kit/pkg/geerpc/client.go	/^func (client *Client) receive() {$/;"	f
+registerCall	plus-go-kit/pkg/geerpc/client.go	/^func (client *Client) registerCall(call *Call) (uint64, error) {$/;"	f
+registerMethods	plus-go-kit/pkg/geerpc/service.go	/^func (s *service) registerMethods() {$/;"	f
+registry	plus-go-kit/pkg/geerpc/registry/registry.go	/^package registry$/;"	p
+removeCall	plus-go-kit/pkg/geerpc/client.go	/^func (client *Client) removeCall(seq uint64) *Call {$/;"	f
+request	plus-go-kit/pkg/geerpc/server.go	/^type request struct {$/;"	t
+router	plus-go-kit/pkg/gee/router.go	/^type router struct {$/;"	t
+schema	plus-go-kit/pkg/geeorm/schema/schema.go	/^package schema$/;"	p
+schema	plus-go-kit/pkg/geeorm/schema/schema_test.go	/^package schema$/;"	p
+search	plus-go-kit/pkg/gee/trie.go	/^func (n *node) search(parts []string, height int) *node {$/;"	f
+send	plus-go-kit/pkg/geerpc/client.go	/^func (client *Client) send(call *Call) {$/;"	f
+sendHeartbeat	plus-go-kit/pkg/geerpc/registry/registry.go	/^func sendHeartbeat(registry, addr string) error {$/;"	f
+sendResponse	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) sendResponse(cc codec.Codec, h *codec.Header, body interface{}, sending *sync.Mutex) {$/;"	f
+serveCodec	plus-go-kit/pkg/geerpc/server.go	/^func (server *Server) serveCodec(cc codec.Codec, opt *Option) {$/;"	f
+server	helloworld/internal/server/grpc.go	/^package server$/;"	p
+server	helloworld/internal/server/http.go	/^package server$/;"	p
+server	helloworld/internal/server/server.go	/^package server$/;"	p
+service	helloworld/internal/service/greeter.go	/^package service$/;"	p
+service	helloworld/internal/service/service.go	/^package service$/;"	p
+service	plus-go-kit/pkg/geerpc/service.go	/^type service struct {$/;"	t
+session	plus-go-kit/pkg/geeorm/session/hooks.go	/^package session$/;"	p
+session	plus-go-kit/pkg/geeorm/session/hooks_test.go	/^package session$/;"	p
+session	plus-go-kit/pkg/geeorm/session/raw.go	/^package session$/;"	p
+session	plus-go-kit/pkg/geeorm/session/raw_test.go	/^package session$/;"	p
+session	plus-go-kit/pkg/geeorm/session/record.go	/^package session$/;"	p
+session	plus-go-kit/pkg/geeorm/session/record_test.go	/^package session$/;"	p
+session	plus-go-kit/pkg/geeorm/session/table.go	/^package session$/;"	p
+session	plus-go-kit/pkg/geeorm/session/table_test.go	/^package session$/;"	p
+session	plus-go-kit/pkg/geeorm/session/transaction.go	/^package session$/;"	p
+singleflight	plus-go-kit/pkg/geecache/singleflight/singleflight.go	/^package singleflight$/;"	p
+singleflight	plus-go-kit/pkg/geecache/singleflight/singleflight_test.go	/^package singleflight$/;"	p
+sqlite3	plus-go-kit/pkg/geeorm/dialect/sqlite3.go	/^type sqlite3 struct{}$/;"	t
+startRegistry	plus-go-kit/pkg/geerpc/main/main.go	/^func startRegistry(wg *sync.WaitGroup) {$/;"	f
+startServer	plus-go-kit/pkg/geerpc/client_test.go	/^func startServer(addr chan string) {$/;"	f
+startServer	plus-go-kit/pkg/geerpc/main/main.go	/^func startServer(registryAddr string, wg *sync.WaitGroup) {$/;"	f
+sum	plus-go-kit/pkg/geerpc/service_test.go	/^func (f Foo) sum(args Args, reply *int) error {$/;"	f
+terminateCalls	plus-go-kit/pkg/geerpc/client.go	/^func (client *Client) terminateCalls(err error) {$/;"	f
+testDelete	plus-go-kit/pkg/geeorm/clause/clause_test.go	/^func testDelete(t *testing.T) {$/;"	f
+testRecordInit	plus-go-kit/pkg/geeorm/session/record_test.go	/^func testRecordInit(t *testing.T) *Session {$/;"	f
+testSelect	plus-go-kit/pkg/geeorm/clause/clause_test.go	/^func testSelect(t *testing.T) {$/;"	f
+testUpdate	plus-go-kit/pkg/geeorm/clause/clause_test.go	/^func testUpdate(t *testing.T) {$/;"	f
+trace	plus-go-kit/pkg/gee/recovery.go	/^func trace(message string) string {$/;"	f
+transactionCommit	plus-go-kit/pkg/geeorm/geeorm_test.go	/^func transactionCommit(t *testing.T) {$/;"	f
+transactionRollback	plus-go-kit/pkg/geeorm/geeorm_test.go	/^func transactionRollback(t *testing.T) {$/;"	f
+travel	plus-go-kit/pkg/gee/trie.go	/^func (n *node) travel(list *([]*node)) {$/;"	f
+user1	plus-go-kit/pkg/geeorm/session/record_test.go	/^	user1 = &User{"Tom", 18}$/;"	v
+user2	plus-go-kit/pkg/geeorm/session/record_test.go	/^	user2 = &User{"Sam", 25}$/;"	v
+user3	plus-go-kit/pkg/geeorm/session/record_test.go	/^	user3 = &User{"Jack", 25}$/;"	v
+v1	helloworld/api/helloworld/v1/error_reason.pb.go	/^package v1$/;"	p
+v1	helloworld/api/helloworld/v1/error_reason.pb.validate.go	/^package v1$/;"	p
+v1	helloworld/api/helloworld/v1/error_reason_errors.pb.go	/^package v1$/;"	p
+v1	helloworld/api/helloworld/v1/greeter.pb.go	/^package v1$/;"	p
+v1	helloworld/api/helloworld/v1/greeter.pb.validate.go	/^package v1$/;"	p
+v1	helloworld/api/helloworld/v1/greeter_grpc.pb.go	/^package v1$/;"	p
+v1	helloworld/api/helloworld/v1/greeter_http.pb.go	/^package v1$/;"	p
+xclient	plus-go-kit/pkg/geerpc/xclient/discovery.go	/^package xclient$/;"	p
+xclient	plus-go-kit/pkg/geerpc/xclient/discovery_gee.go	/^package xclient$/;"	p
+xclient	plus-go-kit/pkg/geerpc/xclient/xclient.go	/^package xclient$/;"	p
+xxx_messageInfo_Request	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^var xxx_messageInfo_Request proto.InternalMessageInfo$/;"	v
+xxx_messageInfo_Response	plus-go-kit/pkg/geecache/geecachepb/geecachepb.pb.go	/^var xxx_messageInfo_Response proto.InternalMessageInfo$/;"	v
